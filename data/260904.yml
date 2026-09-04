@@ -1,0 +1,68 @@
+about:
+  description: A lightweight WebAssembly runtime that is fast, secure, and standards-compliant
+  license: Apache-2.0
+  homepage: https://wasmtime.dev/
+  head: b5b8f49
+  archived: false
+  latestVersion: dev
+  collectedAt: 2026-09-04T04:34:08Z
+timeline:
+  created: 2017-08-29
+  lastCommit: 2026-09-03
+  lastRelease: 2022-09-28
+popularity:
+  star: 18593
+  watcher: 172
+  fork: 1814
+  release: 210
+  contributor: 738
+  pullRequest: 867
+  issue: 3602
+language:
+  Rust: 24176129
+  WebAssembly: 9474121
+  Common Lisp: 3082470
+  C++: 463894
+  C: 421779
+  Shell: 66903
+  JavaScript: 28664
+  CMake: 13344
+  OCaml: 6903
+  Dockerfile: 3701
+  CSS: 2348
+  Makefile: 1857
+  Python: 1238
+totalLine: 37743351
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 6
+    mergedPR: 127
+    openPR: 13
+    closedIssue: 18
+    openIssue: 24
+    commit: 121
+  last90d:
+    since: 2026-06-06
+    release: 22
+    mergedPR: 476
+    openPR: 23
+    closedIssue: 103
+    openIssue: 52
+    commit: 445
+  last180d:
+    since: 2026-03-08
+    release: 38
+    mergedPR: 1076
+    openPR: 34
+    closedIssue: 223
+    openIssue: 102
+    commit: 1025
+  last360d:
+    since: 2025-09-09
+    release: 67
+    mergedPR: 1842
+    openPR: 45
+    closedIssue: 401
+    openIssue: 162
+    commit: 1721
