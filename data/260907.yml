@@ -5,19 +5,19 @@ about:
   head: 6680169
   archived: false
   latestVersion: "v49.0.0-rc.1"
-  collectedAt: 2026-09-07T04:43:47Z
+  collectedAt: 2026-09-07T19:49:53Z
 timeline:
   created: 2017-08-29
   lastCommit: 2026-09-05
   lastRelease: 2026-09-05
 popularity:
-  star: 18602
+  star: 18604
   watcher: 173
   fork: 1817
   release: 211
   contributor: 738
   pullRequest: 10634
-  issue: 3607
+  issue: 3609
 language:
   Rust: 24172308
   WebAssembly: 9444208
@@ -40,7 +40,7 @@ recent:
     mergedPR: 127
     openPR: 13
     closedIssue: 18
-    openIssue: 28
+    openIssue: 30
     commit: 90
   last60d:
     since: 2026-07-09
@@ -48,7 +48,7 @@ recent:
     mergedPR: 281
     openPR: 20
     closedIssue: 69
-    openIssue: 42
+    openIssue: 44
     commit: 246
   last90d:
     since: 2026-06-09
@@ -56,7 +56,7 @@ recent:
     mergedPR: 468
     openPR: 24
     closedIssue: 102
-    openIssue: 56
+    openIssue: 58
     commit: 414
   last180d:
     since: 2026-03-11
@@ -64,7 +64,7 @@ recent:
     mergedPR: 1065
     openPR: 35
     closedIssue: 220
-    openIssue: 106
+    openIssue: 108
     commit: 1007
   last360d:
     since: 2025-09-12
@@ -72,7 +72,7 @@ recent:
     mergedPR: 1825
     openPR: 46
     closedIssue: 396
-    openIssue: 165
+    openIssue: 167
     commit: 1705
   last720d:
     since: 2024-09-17
@@ -80,18 +80,18 @@ recent:
     mergedPR: 3607
     openPR: 53
     closedIssue: 808
-    openIssue: 301
+    openIssue: 303
     commit: 3292
 total:
   release: 211
   mergedPR: 9765
   openPR: 82
   closedIssue: 2840
-  openIssue: 767
+  openIssue: 769
   commit: 17146
 ---
 path: /home/runner/.x-repo/github.com/bytecodealliance/wasmtime
-collectedAt: 2026-09-07T04:44:14Z
+collectedAt: 2026-09-07T19:50:25Z
 loc:
   Rust:
     code: 596606
@@ -440,7 +440,7 @@ checks:
       - 'Info:   0 out of   1 npmCommand dependencies pinned'
 ---
 eget:
-  collectedAt: 2026-09-07T04:44:16+00:00
+  collectedAt: 2026-09-07T19:50:27+00:00
   platform:
     darwin/arm64:
       name:  wasmtime-v48.0.1-aarch64-macos.tar.xz
