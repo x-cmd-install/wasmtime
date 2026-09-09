@@ -7,7 +7,7 @@ about:
   latestVersion: "dev"
   latestRelease: "v48.0.1"
   latestPrerelease: "dev"
-  collectedAt: 2026-09-09T04:42:01Z
+  collectedAt: 2026-09-09T18:46:57Z
 timeline:
   created: 2017-08-29
   lastCommit: 2026-09-09
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 2026-08-24
   lastPrerelease: 2022-09-28
 popularity:
-  star: 18612
+  star: 18617
   watcher: 173
-  fork: 1818
+  fork: 1819
   release: 211
   contributor: 738
-  pullRequest: 10642
+  pullRequest: 10646
   issue: 3610
 language:
   Rust: 24201973
@@ -41,61 +41,61 @@ recent:
   last30d:
     since: 2026-08-10
     release: 7
-    mergedPR: 120
-    openPR: 13
+    mergedPR: 121
+    openPR: 16
     closedIssue: 19
     openIssue: 23
     commit: 99
   last60d:
     since: 2026-07-11
     release: 14
-    mergedPR: 283
-    openPR: 19
+    mergedPR: 284
+    openPR: 22
     closedIssue: 70
     openIssue: 41
     commit: 255
   last90d:
     since: 2026-06-11
     release: 23
-    mergedPR: 468
-    openPR: 23
+    mergedPR: 469
+    openPR: 26
     closedIssue: 103
     openIssue: 56
     commit: 423
   last180d:
     since: 2026-03-13
     release: 39
-    mergedPR: 1067
-    openPR: 34
+    mergedPR: 1068
+    openPR: 37
     closedIssue: 218
     openIssue: 105
     commit: 1016
   last360d:
     since: 2025-09-14
     release: 68
-    mergedPR: 1834
-    openPR: 45
+    mergedPR: 1835
+    openPR: 48
     closedIssue: 397
     openIssue: 166
     commit: 1714
   last720d:
     since: 2024-09-19
     release: 99
-    mergedPR: 3601
-    openPR: 52
+    mergedPR: 3602
+    openPR: 55
     closedIssue: 809
     openIssue: 302
     commit: 3291
 total:
   release: 211
-  mergedPR: 9774
-  openPR: 81
+  mergedPR: 9775
+  openPR: 84
   closedIssue: 2842
   openIssue: 768
   commit: 17155
 ---
 path: /home/runner/.x-repo/github.com/bytecodealliance/wasmtime
-collectedAt: 2026-09-09T04:42:23Z
+collectedAt: 2026-09-09T18:47:29Z
 loc:
   Rust:
     code: 597099
