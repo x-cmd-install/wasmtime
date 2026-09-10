@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 18,616 · **Forks**: 1,819 · **Open issues**: 3,612 · **Contributors**: 739
+- **Stars**: 18,615 · **Forks**: 1,819 · **Open issues**: 3,612 · **Contributors**: 739
 
 ## Totals (cumulative)
 
@@ -110,13 +110,13 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **53** distros on [repology.org](https://repology.org/project/wasmtime). **20** are ✅ on the latest upstream release, **21** are ⚠️ on an older version.
+Reported by **53** distros on [repology.org](https://repology.org/project/wasmtime). **1** are ✅ on the latest upstream release, **40** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Arch | `48.0.1` | ✅ latest |
-| Homebrew | `48.0.1` | ✅ latest |
-| Nix unstable | `48.0.1` | ✅ latest |
+| Arch | `48.0.1` | ⚠️ outdated |
+| Homebrew | `48.0.1` | ⚠️ outdated |
+| Nix unstable | `48.0.1` | ⚠️ outdated |
 | Void | `0.25.0` | ⚠️ outdated |
 | Alpine edge | `47.0.3` | ⚠️ outdated |
 
@@ -129,4 +129,4 @@ Install metadata for wasmtime lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T20:57:00Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T23:00:18Z._

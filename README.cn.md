@@ -12,7 +12,7 @@ A lightweight WebAssembly runtime that is fast, secure, and standards-compliant
 x install wasmtime
 ```
 
-## 代码规模
+## 代码洞察
 
 合计: **740,921** 行代码（覆盖前 5 种语言、共 **5400** 个文件）。
 
@@ -48,7 +48,7 @@ x install wasmtime
 
 ## 流行度
 
-- **Star**: 18,616 · **Fork**: 1,819 · **开放 issue**: 3,612 · **贡献者**: 739
+- **Star**: 18,615 · **Fork**: 1,819 · **开放 issue**: 3,612 · **贡献者**: 739
 
 ## 累计统计
 
@@ -110,13 +110,13 @@ x install wasmtime
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/wasmtime) 上共有 **53** 个发行版报告此项目。**20** 个 ✅ 已是最新上游版本，**21** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/wasmtime) 上共有 **53** 个发行版报告此项目。**1** 个 ✅ 已是最新上游版本，**40** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Arch | `48.0.1` | ✅ latest |
-| Homebrew | `48.0.1` | ✅ latest |
-| Nix unstable | `48.0.1` | ✅ latest |
+| Arch | `48.0.1` | ⚠️ outdated |
+| Homebrew | `48.0.1` | ⚠️ outdated |
+| Nix unstable | `48.0.1` | ⚠️ outdated |
 | Void | `0.25.0` | ⚠️ outdated |
 | Alpine edge | `47.0.3` | ⚠️ outdated |
 
@@ -129,4 +129,4 @@ wasmtime 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T20:57:01Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T23:00:19Z._
