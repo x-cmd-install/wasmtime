@@ -23,11 +23,53 @@ x install wasmtime
 - **Latest**: `dev` (2026-08-24)
 - **Last commit**: 2026-09-09
 - **Assets in release**: 38
-- **Published**: 2026-08-24T20:03:55Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [wasi_snapshot_preview1.command.wasm](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasi_snapshot_preview1.command.wasm) | 50.6 KiB | `other` |
+| [wasi_snapshot_preview1.proxy.wasm](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasi_snapshot_preview1.proxy.wasm) | 16.7 KiB | `other` |
+| [wasi_snapshot_preview1.reactor.wasm](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasi_snapshot_preview1.reactor.wasm) | 50.4 KiB | `other` |
+| [wasmtime-platform.h](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-platform.h) | 11.8 KiB | `other` |
+| [wasmtime-v48.0.1-aarch64-android-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-aarch64-android-c-api.tar.xz) | 12.7 MiB | `other` |
+| [wasmtime-v48.0.1-aarch64-android.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-aarch64-android.tar.xz) | 9.9 MiB | `other` |
+| [wasmtime-v48.0.1-aarch64-linux-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-aarch64-linux-c-api.tar.xz) | 12.9 MiB | `native/linux/arm64` |
+| [wasmtime-v48.0.1-aarch64-linux.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-aarch64-linux.tar.xz) | 10.3 MiB | `native/linux/arm64` |
+| [wasmtime-v48.0.1-aarch64-macos-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-aarch64-macos-c-api.tar.xz) | 12.3 MiB | `native/darwin/arm64` |
+| [wasmtime-v48.0.1-aarch64-macos.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-aarch64-macos.tar.xz) | 8.9 MiB | `native/darwin/arm64` |
+| [wasmtime-v48.0.1-aarch64-musl-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-aarch64-musl-c-api.tar.xz) | 13.1 MiB | `other` |
+| [wasmtime-v48.0.1-aarch64-musl.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-aarch64-musl.tar.xz) | 10.4 MiB | `other` |
+| [wasmtime-v48.0.1-aarch64-windows-c-api.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-aarch64-windows-c-api.zip) | 24.8 MiB | `native/win/arm64` |
+| [wasmtime-v48.0.1-aarch64-windows.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-aarch64-windows.zip) | 11.4 MiB | `native/win/arm64` |
+| [wasmtime-v48.0.1-armv7-linux-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-armv7-linux-c-api.tar.xz) | 13.3 MiB | `native/linux/arm` |
+| [wasmtime-v48.0.1-armv7-linux.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-armv7-linux.tar.xz) | 10.5 MiB | `native/linux/arm` |
+| [wasmtime-v48.0.1-i686-linux-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-i686-linux-c-api.tar.xz) | 15.1 MiB | `native/linux/x86` |
+| [wasmtime-v48.0.1-i686-linux.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-i686-linux.tar.xz) | 11.5 MiB | `native/linux/x86` |
+| [wasmtime-v48.0.1-i686-windows-c-api.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-i686-windows-c-api.zip) | 23.9 MiB | `native/win/x64` |
+| [wasmtime-v48.0.1-i686-windows.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-i686-windows.zip) | 11.7 MiB | `native/win/x64` |
+| [wasmtime-v48.0.1-riscv64gc-linux-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-riscv64gc-linux-c-api.tar.xz) | 16.5 MiB | `native/linux/riscv64` |
+| [wasmtime-v48.0.1-riscv64gc-linux.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-riscv64gc-linux.tar.xz) | 11.8 MiB | `native/linux/riscv64` |
+| [wasmtime-v48.0.1-s390x-linux-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-s390x-linux-c-api.tar.xz) | 13.5 MiB | `other` |
+| [wasmtime-v48.0.1-s390x-linux.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-s390x-linux.tar.xz) | 10.5 MiB | `other` |
+| [wasmtime-v48.0.1-src.tar.gz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-src.tar.gz) | 191.7 MiB | `native/unknown` |
+| [wasmtime-v48.0.1-x86_64-android-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-x86_64-android-c-api.tar.xz) | 14.9 MiB | `other` |
+| [wasmtime-v48.0.1-x86_64-android.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-x86_64-android.tar.xz) | 10.8 MiB | `other` |
+| [wasmtime-v48.0.1-x86_64-linux-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-x86_64-linux-c-api.tar.xz) | 15.3 MiB | `native/linux/x64` |
+| [wasmtime-v48.0.1-x86_64-linux.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-x86_64-linux.tar.xz) | 11.0 MiB | `native/linux/x64` |
+| [wasmtime-v48.0.1-x86_64-macos-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-x86_64-macos-c-api.tar.xz) | 14.1 MiB | `native/darwin/x64` |
+| [wasmtime-v48.0.1-x86_64-macos.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-x86_64-macos.tar.xz) | 10.1 MiB | `native/darwin/x64` |
+| [wasmtime-v48.0.1-x86_64-mingw-c-api.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-x86_64-mingw-c-api.zip) | 28.6 MiB | `other` |
+| [wasmtime-v48.0.1-x86_64-mingw.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-x86_64-mingw.zip) | 20.2 MiB | `other` |
+| [wasmtime-v48.0.1-x86_64-musl-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-x86_64-musl-c-api.tar.xz) | 15.3 MiB | `other` |
+| [wasmtime-v48.0.1-x86_64-musl.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-x86_64-musl.tar.xz) | 11.4 MiB | `other` |
+| [wasmtime-v48.0.1-x86_64-windows-c-api.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-x86_64-windows-c-api.zip) | 27.0 MiB | `native/win/x64` |
+| [wasmtime-v48.0.1-x86_64-windows.msi](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-x86_64-windows.msi) | 12.2 MiB | `native/win/x64` |
+| [wasmtime-v48.0.1-x86_64-windows.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v48.0.1/wasmtime-v48.0.1-x86_64-windows.zip) | 12.5 MiB | `native/win/x64` |
 
 ## Popularity
 
-- **Stars**: 18,616 · **Forks**: 1,819 · **Open issues**: 3,610 · **Contributors**: 739
+- **Stars**: 18,615 · **Forks**: 1,819 · **Open issues**: 3,610 · **Contributors**: 739
 
 ## Totals (cumulative)
 
@@ -68,8 +110,8 @@ Lowest-scoring checks:
 Install metadata for wasmtime lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `wasmtime` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/wasmtime.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/wasmtime.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:41:36Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:22:44Z._
