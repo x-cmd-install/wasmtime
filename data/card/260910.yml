@@ -7,7 +7,7 @@ about:
   latestVersion: "dev"
   latestRelease: "v48.0.1"
   latestPrerelease: "dev"
-  collectedAt: 2026-09-10T04:41:06Z
+  collectedAt: 2026-09-10T16:22:02Z
 timeline:
   created: 2017-08-29
   lastCommit: 2026-09-09
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-08-24
   lastPrerelease: 2022-09-28
 popularity:
-  star: 18616
+  star: 18615
   watcher: 173
   fork: 1819
   release: 211
@@ -95,7 +95,7 @@ total:
   commit: 17157
 ---
 path: /home/runner/.x-repo/github.com/bytecodealliance/wasmtime
-collectedAt: 2026-09-10T04:41:29Z
+collectedAt: 2026-09-10T16:22:30Z
 loc:
   Rust:
     code: 598009
