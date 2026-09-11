@@ -1,11 +1,11 @@
-- repo: manjaro_stable
+- repo: arch
   subrepo: extra
   srcname: wasmtime
   binname: wasmtime
   visiblename: wasmtime
-  version: 48.0.1
-  origversion: 48.0.1-1
-  status: outdated
+  version: 48.0.2
+  origversion: 48.0.2-1
+  status: newest
   summary: Standalone JIT-style runtime for WebAssembly, using Cranelift
   licenses:
     - Apache-2.0
@@ -61,51 +61,6 @@
     - alpine@ptrcnull.me
   licenses:
     - Apache-2.0
-- repo: arch
-  subrepo: extra
-  srcname: wasmtime
-  binname: wasmtime
-  visiblename: wasmtime
-  version: 48.0.1
-  origversion: 48.0.1-1
-  status: outdated
-  summary: Standalone JIT-style runtime for WebAssembly, using Cranelift
-  licenses:
-    - Apache-2.0
-- repo: aur
-  srcname: wasmtime-git
-  binname: wasmtime-git
-  visiblename: wasmtime-git
-  version: 7.0.0.r173.g2d1dbb17a
-  origversion: 7.0.0.r173.g2d1dbb17a-1
-  status: rolling
-  summary: Standalone JIT-style runtime for WebAssembly
-  maintainers:
-    - chocobo1@aur
-  licenses:
-    - Apache
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: wasmtime
-  binname: wasmtime
-  visiblename: wasmtime
-  version: 48.0.1
-  origversion: 48.0.1-1
-  status: outdated
-  summary: Standalone JIT-style runtime for WebAssembly, using Cranelift
-  licenses:
-    - Apache-2.0
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: wasmtime
-  binname: wasmtime
-  visiblename: wasmtime
-  version: 48.0.1
-  origversion: 48.0.1-1
-  status: outdated
-  summary: Standalone JIT-style runtime for WebAssembly, using Cranelift
-  licenses:
-    - Apache-2.0
 - repo: freebsd
   srcname: www/wasmtime
   binname: wasmtime
@@ -118,6 +73,18 @@
     - yuri@freebsd.org
   categories:
     - www
+- repo: aur
+  srcname: wasmtime-git
+  binname: wasmtime-git
+  visiblename: wasmtime-git
+  version: 7.0.0.r173.g2d1dbb17a
+  origversion: 7.0.0.r173.g2d1dbb17a-1
+  status: rolling
+  summary: Standalone JIT-style runtime for WebAssembly
+  maintainers:
+    - chocobo1@aur
+  licenses:
+    - Apache
 - repo: homebrew
   srcname: wasmtime
   visiblename: wasmtime
@@ -146,6 +113,39 @@
     - Apache-2
   categories:
     - devel
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: wasmtime
+  binname: wasmtime
+  visiblename: wasmtime
+  version: 48.0.1
+  origversion: 48.0.1-1
+  status: outdated
+  summary: Standalone JIT-style runtime for WebAssembly, using Cranelift
+  licenses:
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: wasmtime
+  binname: wasmtime
+  visiblename: wasmtime
+  version: 48.0.1
+  origversion: 48.0.1-1
+  status: outdated
+  summary: Standalone JIT-style runtime for WebAssembly, using Cranelift
+  licenses:
+    - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: wasmtime
+  binname: wasmtime
+  visiblename: wasmtime
+  version: 48.0.1
+  origversion: 48.0.1-1
+  status: outdated
+  summary: Standalone JIT-style runtime for WebAssembly, using Cranelift
+  licenses:
+    - Apache-2.0
 - repo: msys2_clang64
   srcname: mingw-w64-wasmtime
   binname: mingw-w64-clang-x86_64-wasmtime
@@ -300,6 +300,18 @@
   summary: WebAssembly runtime
   licenses:
     - Apache License v2.0 with LLVM Exceptions
+- repo: openpkg_current
+  srcname: wasmtime
+  visiblename: wasmtime
+  version: 40.0.0
+  origversion: null
+  status: outdated
+  summary: WebAssembly Runtime
+  licenses:
+    - MIT
+  categories:
+    - Web
+  vulnerable: true
 - repo: conancenter
   srcname: wasmtime
   visiblename: wasmtime
@@ -307,33 +319,26 @@
   origversion: null
   status: legacy
   vulnerable: true
-- repo: alpine_3_24
-  subrepo: community
+- repo: conancenter
   srcname: wasmtime
-  binname: wasmtime
   visiblename: wasmtime
-  version: 44.0.1
-  origversion: 44.0.1-r0
+  version: 37.0.0
+  origversion: null
   status: outdated
-  summary: Fast and secure runtime for WebAssembly
-  maintainers:
-    - alpine@ptrcnull.me
-  licenses:
-    - Apache-2.0
   vulnerable: true
-- repo: alpine_3_24
-  subrepo: community
+- repo: conancenter
   srcname: wasmtime
-  binname: wasmtime-dev
-  visiblename: wasmtime-dev
-  version: 44.0.1
-  origversion: 44.0.1-r0
-  status: outdated
-  summary: Fast and secure runtime for WebAssembly (development files)
-  maintainers:
-    - alpine@ptrcnull.me
-  licenses:
-    - Apache-2.0
+  visiblename: wasmtime
+  version: 31.0.0
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: conancenter
+  srcname: wasmtime
+  visiblename: wasmtime
+  version: 21.0.0
+  origversion: null
+  status: legacy
   vulnerable: true
 - repo: alpine_3_24
   subrepo: community
@@ -358,6 +363,34 @@
   origversion: 44.0.1-r0
   status: outdated
   summary: Fast and secure runtime for WebAssembly (static library)
+  maintainers:
+    - alpine@ptrcnull.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_24
+  subrepo: community
+  srcname: wasmtime
+  binname: wasmtime
+  visiblename: wasmtime
+  version: 44.0.1
+  origversion: 44.0.1-r0
+  status: outdated
+  summary: Fast and secure runtime for WebAssembly
+  maintainers:
+    - alpine@ptrcnull.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_24
+  subrepo: community
+  srcname: wasmtime
+  binname: wasmtime-dev
+  visiblename: wasmtime-dev
+  version: 44.0.1
+  origversion: 44.0.1-r0
+  status: outdated
+  summary: Fast and secure runtime for WebAssembly (development files)
   maintainers:
     - alpine@ptrcnull.me
   licenses:
@@ -432,27 +465,6 @@
   summary: Runtime for webassembly (libraries)
   licenses:
     - Apache-2.0
-  vulnerable: true
-- repo: conancenter
-  srcname: wasmtime
-  visiblename: wasmtime
-  version: 37.0.0
-  origversion: null
-  status: outdated
-  vulnerable: true
-- repo: conancenter
-  srcname: wasmtime
-  visiblename: wasmtime
-  version: 31.0.0
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: conancenter
-  srcname: wasmtime
-  visiblename: wasmtime
-  version: 21.0.0
-  origversion: null
-  status: legacy
   vulnerable: true
 - repo: conancenter
   srcname: wasmtime
@@ -549,18 +561,6 @@
   licenses:
     - Apache-2.0
     - LLVM-exception
-  vulnerable: true
-- repo: openpkg_current
-  srcname: wasmtime
-  visiblename: wasmtime
-  version: 40.0.0
-  origversion: null
-  status: outdated
-  summary: WebAssembly Runtime
-  licenses:
-    - MIT
-  categories:
-    - Web
   vulnerable: true
 - repo: void_x86_64
   subrepo: x86_64
