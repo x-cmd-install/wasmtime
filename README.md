@@ -14,13 +14,13 @@ x install wasmtime
 
 ## Code insight
 
-Total: **740,921** lines of code across **5400** files in the top 5 languages.
+Total: **740,507** lines of code across **5399** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 598,107 | 36,379 | 65,569 | 2114 |
-| WebAssembly | 108,445 | 161,270 | 10,119 | 3053 |
-| Toml | 10,818 | 413 | 1,866 | 109 |
+| Rust | 597,898 | 36,380 | 65,555 | 2113 |
+| WebAssembly | 108,235 | 161,290 | 10,081 | 3053 |
+| Toml | 10,823 | 413 | 1,867 | 109 |
 | CppHeader | 6,066 | 2,444 | 1,694 | 64 |
 | Cpp | 4,892 | 283 | 924 | 60 |
 
@@ -42,28 +42,28 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v48.0.2` (2026-09-10)
-- **Last commit**: 2026-09-10
+- **Latest**: `dev` (2026-09-10)
+- **Last commit**: 2026-09-11
 - **Assets in release**: 38
 
 ## Popularity
 
-- **Stars**: 18,615 · **Forks**: 1,819 · **Open issues**: 3,612 · **Contributors**: 739
+- **Stars**: 18,616 · **Forks**: 1,819 · **Open issues**: 3,612 · **Contributors**: 739
 
 ## Totals (cumulative)
 
-- **Releases**: 213 · **Merged PRs**: 9783 · **Open PRs**: 82 · **Closed issues**: 2844 · **Open issues**: 768 · **Commits**: 17158
+- **Releases**: 213 · **Merged PRs**: 9785 · **Open PRs**: 80 · **Closed issues**: 2845 · **Open issues**: 767 · **Commits**: 17160
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 9 | 126 | 14 | 19 | 23 | 102 |
-| last60d | 2026-07-12 | 16 | 292 | 20 | 72 | 41 | 258 |
-| 90d | 2026-06-12 | 25 | 465 | 24 | 104 | 56 | 426 |
-| last180d | 2026-03-14 | 41 | 1075 | 35 | 219 | 105 | 1019 |
-| 360d | 2025-09-15 | 70 | 1842 | 46 | 399 | 166 | 1717 |
-| last720d | 2024-09-20 | 99 | 3607 | 53 | 811 | 301 | 3285 |
+| 30d | 2026-08-12 | 9 | 123 | 11 | 19 | 22 | 105 |
+| last60d | 2026-07-13 | 16 | 290 | 18 | 70 | 39 | 261 |
+| 90d | 2026-06-13 | 25 | 460 | 22 | 105 | 55 | 429 |
+| last180d | 2026-03-15 | 41 | 1075 | 33 | 220 | 104 | 1022 |
+| 360d | 2025-09-16 | 70 | 1843 | 44 | 397 | 165 | 1720 |
+| last720d | 2024-09-21 | 99 | 3609 | 51 | 812 | 300 | 3284 |
 
 ## Release assets
 
@@ -110,11 +110,11 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **53** distros on [repology.org](https://repology.org/project/wasmtime). **1** are ✅ on the latest upstream release, **40** are ⚠️ on an older version.
+Reported by **53** distros on [repology.org](https://repology.org/project/wasmtime). **2** are ✅ on the latest upstream release, **39** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Arch | `48.0.1` | ⚠️ outdated |
+| Arch | `48.0.2` | ✅ latest |
 | Homebrew | `48.0.1` | ⚠️ outdated |
 | Nix unstable | `48.0.1` | ⚠️ outdated |
 | Void | `0.25.0` | ⚠️ outdated |
@@ -129,4 +129,4 @@ Install metadata for wasmtime lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T23:00:18Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T04:51:44Z._
