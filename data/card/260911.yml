@@ -2,12 +2,12 @@ about:
   description: "A lightweight WebAssembly runtime that is fast, secure, and standards-compliant"
   license: Apache-2.0
   homepage: https://wasmtime.dev/
-  head: 2607a7a
+  head: 2be5e3a
   archived: false
   latestVersion: "dev"
   latestRelease: "v48.0.2"
   latestPrerelease: "dev"
-  collectedAt: 2026-09-11T04:51:01Z
+  collectedAt: 2026-09-11T20:18:02Z
 timeline:
   created: 2017-08-29
   lastCommit: 2026-09-11
@@ -15,15 +15,15 @@ timeline:
   lastRelease: 2026-09-10
   lastPrerelease: 2022-09-28
 popularity:
-  star: 18616
+  star: 18618
   watcher: 173
-  fork: 1819
+  fork: 1822
   release: 213
-  contributor: 739
-  pullRequest: 10653
-  issue: 3612
+  contributor: 740
+  pullRequest: 10656
+  issue: 3620
 language:
-  Rust: 24242137
+  Rust: 24251223
   WebAssembly: 9441572
   Common Lisp: 3087953
   C++: 463894
@@ -36,71 +36,71 @@ language:
   CSS: 2348
   Makefile: 1857
   Python: 1238
-totalBytes: 37783905
+totalBytes: 37792991
 recent:
   last30d:
     since: 2026-08-12
     release: 9
-    mergedPR: 123
-    openPR: 11
-    closedIssue: 19
+    mergedPR: 126
+    openPR: 10
+    closedIssue: 21
     openIssue: 22
-    commit: 105
+    commit: 108
   last60d:
     since: 2026-07-13
     release: 16
-    mergedPR: 290
-    openPR: 18
-    closedIssue: 70
+    mergedPR: 293
+    openPR: 17
+    closedIssue: 72
     openIssue: 39
-    commit: 261
+    commit: 264
   last90d:
     since: 2026-06-13
     release: 25
-    mergedPR: 460
-    openPR: 22
-    closedIssue: 105
+    mergedPR: 463
+    openPR: 21
+    closedIssue: 107
     openIssue: 55
-    commit: 429
+    commit: 432
   last180d:
     since: 2026-03-15
     release: 41
-    mergedPR: 1075
-    openPR: 33
-    closedIssue: 220
-    openIssue: 104
-    commit: 1022
+    mergedPR: 1078
+    openPR: 32
+    closedIssue: 227
+    openIssue: 105
+    commit: 1025
   last360d:
     since: 2025-09-16
     release: 70
-    mergedPR: 1843
-    openPR: 44
-    closedIssue: 397
-    openIssue: 165
-    commit: 1720
+    mergedPR: 1846
+    openPR: 43
+    closedIssue: 404
+    openIssue: 166
+    commit: 1723
   last720d:
     since: 2024-09-21
     release: 99
-    mergedPR: 3609
-    openPR: 51
-    closedIssue: 812
-    openIssue: 300
-    commit: 3284
+    mergedPR: 3612
+    openPR: 50
+    closedIssue: 819
+    openIssue: 301
+    commit: 3287
 total:
   release: 213
-  mergedPR: 9785
-  openPR: 80
-  closedIssue: 2845
-  openIssue: 767
-  commit: 17160
+  mergedPR: 9788
+  openPR: 79
+  closedIssue: 2852
+  openIssue: 768
+  commit: 17163
 ---
 path: /home/runner/.x-repo/github.com/bytecodealliance/wasmtime
-collectedAt: 2026-09-11T04:51:33Z
+collectedAt: 2026-09-11T20:18:30Z
 loc:
   Rust:
-    code: 597898
-    comments: 36380
-    blanks: 65555
+    code: 598093
+    comments: 36395
+    blanks: 65587
     files: 2113
   WebAssembly:
     code: 108235
@@ -199,8 +199,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 12295
-    blanks: 3641
+    comments: 12298
+    blanks: 3643
     files: 159
   Text:
     code: 0
@@ -208,9 +208,9 @@ loc:
     blanks: 0
     files: 4
 total:
-  code: 741859
-  comments: 295080
-  blanks: 100336
+  code: 742054
+  comments: 295106
+  blanks: 100373
   files: 5721
 ---
 date: "2026-09-07"
