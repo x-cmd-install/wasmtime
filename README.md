@@ -4,7 +4,7 @@
 
 A lightweight WebAssembly runtime that is fast, secure, and standards-compliant
 
-[![x-cmd/install — wasmtime Code Quality Monitoring Repo Card](https://repo.x-cmd.io/wasmtime.svg)](https://x-cmd.com/install/wasmtime)
+[![x-cmd/install — wasmtime Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/wasmtime.svg)](https://x-cmd.com/install/wasmtime)
 
 ## Install
 
@@ -14,25 +14,15 @@ x install wasmtime
 
 ## Code insight
 
-Total: **747,461** lines of code across **5386** files in the top 5 languages.
+Total: **748,983** lines of code across **5396** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 604,188 | 36,485 | 66,135 | 2084 |
-| WebAssembly | 108,862 | 162,210 | 10,233 | 3069 |
+| Rust | 605,206 | 36,566 | 66,213 | 2084 |
+| WebAssembly | 109,366 | 162,978 | 10,280 | 3079 |
 | Toml | 10,839 | 413 | 1,870 | 109 |
 | CppHeader | 6,066 | 2,444 | 1,694 | 64 |
 | Cpp | 4,892 | 283 | 924 | 60 |
-
-## OpenSSF Scorecard
-
-Overall score: **5.1 / 10**
-
-Lowest-scoring checks:
-
-- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
 
@@ -43,27 +33,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `dev` (2026-09-21)
-- **Last commit**: 2026-09-21
+- **Last commit**: 2026-09-23
 - **Assets in release**: 39
 
 ## Popularity
 
-- **Stars**: 18,651 · **Forks**: 1,833 · **Open issues**: 3,637 · **Contributors**: 743
+- **Stars**: 18,651 · **Forks**: 1,833 · **Open issues**: 3,639 · **Contributors**: 747
 
 ## Totals (cumulative)
 
-- **Releases**: 214 · **Merged PRs**: 9822 · **Open PRs**: 80 · **Closed issues**: 2870 · **Open issues**: 767 · **Commits**: 17194
+- **Releases**: 214 · **Merged PRs**: 9830 · **Open PRs**: 80 · **Closed issues**: 2872 · **Open issues**: 767 · **Commits**: 17202
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 5 | 115 | 12 | 25 | 22 | 93 |
-| last60d | 2026-07-24 | 14 | 261 | 16 | 68 | 39 | 215 |
-| 90d | 2026-06-24 | 21 | 418 | 22 | 112 | 54 | 383 |
-| last180d | 2026-03-26 | 41 | 1064 | 32 | 229 | 101 | 966 |
-| 360d | 2025-09-27 | 69 | 1852 | 41 | 414 | 161 | 1714 |
-| last720d | 2024-10-02 | 99 | 3603 | 51 | 825 | 289 | 3280 |
+| 30d | 2026-08-24 | 5 | 116 | 12 | 27 | 22 | 101 |
+| last60d | 2026-07-25 | 14 | 263 | 16 | 60 | 36 | 223 |
+| 90d | 2026-06-25 | 17 | 424 | 22 | 113 | 54 | 391 |
+| last180d | 2026-03-27 | 41 | 1065 | 32 | 231 | 101 | 974 |
+| 360d | 2025-09-28 | 69 | 1860 | 41 | 415 | 161 | 1722 |
+| last720d | 2024-10-03 | 99 | 3599 | 51 | 827 | 289 | 3283 |
 
 ## Release assets
 
@@ -118,4 +108,4 @@ Install metadata for wasmtime lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:07:11Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T04:58:05Z._

@@ -4,7 +4,7 @@
 
 A lightweight WebAssembly runtime that is fast, secure, and standards-compliant
 
-[![x-cmd/install — wasmtime Code Quality Monitoring Repo Card](https://repo.x-cmd.io/wasmtime.svg?lang=zh)](https://x-cmd.com/install/wasmtime)
+[![x-cmd/install — wasmtime Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/wasmtime.svg?lang=zh)](https://x-cmd.com/install/wasmtime)
 
 ## 安装
 
@@ -14,25 +14,15 @@ x install wasmtime
 
 ## 代码洞察
 
-合计: **747,461** 行代码（覆盖前 5 种语言、共 **5386** 个文件）。
+合计: **748,983** 行代码（覆盖前 5 种语言、共 **5396** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 604,188 | 36,485 | 66,135 | 2084 |
-| WebAssembly | 108,862 | 162,210 | 10,233 | 3069 |
+| Rust | 605,206 | 36,566 | 66,213 | 2084 |
+| WebAssembly | 109,366 | 162,978 | 10,280 | 3079 |
 | Toml | 10,839 | 413 | 1,870 | 109 |
 | CppHeader | 6,066 | 2,444 | 1,694 | 64 |
 | Cpp | 4,892 | 283 | 924 | 60 |
-
-## OpenSSF Scorecard 评分
-
-总评分: **5.1 / 10**
-
-评分最低的几项:
-
-- **Dangerous-Workflow** (0/10) — dangerous workflow patterns detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
 
@@ -43,27 +33,27 @@ x install wasmtime
 ## 发布
 
 - **最新版本**: `dev` (2026-09-21)
-- **最近提交**: 2026-09-21
+- **最近提交**: 2026-09-23
 - **Release 含资产**: 39 个
 
 ## 流行度
 
-- **Star**: 18,651 · **Fork**: 1,833 · **开放 issue**: 3,637 · **贡献者**: 743
+- **Star**: 18,651 · **Fork**: 1,833 · **开放 issue**: 3,639 · **贡献者**: 747
 
 ## 累计统计
 
-- **发布数**: 214 · **已合并 PR**: 9822 · **开放 PR**: 80 · **已关闭 issue**: 2870 · **开放 issue**: 767 · **提交数**: 17194
+- **发布数**: 214 · **已合并 PR**: 9830 · **开放 PR**: 80 · **已关闭 issue**: 2872 · **开放 issue**: 767 · **提交数**: 17202
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 5 | 115 | 12 | 25 | 22 | 93 |
-| last60d | 2026-07-24 | 14 | 261 | 16 | 68 | 39 | 215 |
-| 90d | 2026-06-24 | 21 | 418 | 22 | 112 | 54 | 383 |
-| last180d | 2026-03-26 | 41 | 1064 | 32 | 229 | 101 | 966 |
-| 360d | 2025-09-27 | 69 | 1852 | 41 | 414 | 161 | 1714 |
-| last720d | 2024-10-02 | 99 | 3603 | 51 | 825 | 289 | 3280 |
+| 30d | 2026-08-24 | 5 | 116 | 12 | 27 | 22 | 101 |
+| last60d | 2026-07-25 | 14 | 263 | 16 | 60 | 36 | 223 |
+| 90d | 2026-06-25 | 17 | 424 | 22 | 113 | 54 | 391 |
+| last180d | 2026-03-27 | 41 | 1065 | 32 | 231 | 101 | 974 |
+| 360d | 2025-09-28 | 69 | 1860 | 41 | 415 | 161 | 1722 |
+| last720d | 2024-10-03 | 99 | 3599 | 51 | 827 | 289 | 3283 |
 
 ## Release 资产
 
@@ -118,4 +108,4 @@ wasmtime 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T05:07:13Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T04:58:05Z._
