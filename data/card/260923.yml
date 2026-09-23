@@ -1,0 +1,217 @@
+about:
+  description: "A lightweight WebAssembly runtime that is fast, secure, and standards-compliant"
+  license: Apache-2.0
+  homepage: https://wasmtime.dev/
+  head: a2e2d86
+  archived: false
+  latestVersion: "dev"
+  latestRelease: "v49.0.0"
+  latestPrerelease: "dev"
+  collectedAt: 2026-09-23T04:57:28Z
+timeline:
+  created: 2017-08-29
+  lastCommit: 2026-09-23
+  lastVersion: 2022-09-28
+  lastRelease: 2026-09-21
+  lastPrerelease: 2022-09-28
+popularity:
+  star: 18651
+  watcher: 173
+  fork: 1833
+  release: 214
+  contributor: 747
+  pullRequest: 10701
+  issue: 3639
+language:
+  Rust: 24612772
+  WebAssembly: 9560247
+  Common Lisp: 3092131
+  C++: 463894
+  C: 423353
+  Shell: 66903
+  JavaScript: 30276
+  CMake: 13344
+  OCaml: 6903
+  Dockerfile: 3701
+  CSS: 2348
+  Makefile: 1857
+  Python: 1238
+totalBytes: 38278967
+recent:
+  last30d:
+    since: 2026-08-24
+    release: 5
+    mergedPR: 116
+    openPR: 12
+    closedIssue: 27
+    openIssue: 22
+    commit: 101
+  last60d:
+    since: 2026-07-25
+    release: 14
+    mergedPR: 263
+    openPR: 16
+    closedIssue: 60
+    openIssue: 36
+    commit: 223
+  last90d:
+    since: 2026-06-25
+    release: 17
+    mergedPR: 424
+    openPR: 22
+    closedIssue: 113
+    openIssue: 54
+    commit: 391
+  last180d:
+    since: 2026-03-27
+    release: 41
+    mergedPR: 1065
+    openPR: 32
+    closedIssue: 231
+    openIssue: 101
+    commit: 974
+  last360d:
+    since: 2025-09-28
+    release: 69
+    mergedPR: 1860
+    openPR: 41
+    closedIssue: 415
+    openIssue: 161
+    commit: 1722
+  last720d:
+    since: 2024-10-03
+    release: 99
+    mergedPR: 3599
+    openPR: 51
+    closedIssue: 827
+    openIssue: 289
+    commit: 3283
+total:
+  release: 214
+  mergedPR: 9830
+  openPR: 80
+  closedIssue: 2872
+  openIssue: 767
+  commit: 17202
+---
+path: /home/runner/.x-repo/github.com/bytecodealliance/wasmtime
+collectedAt: 2026-09-23T04:57:49Z
+loc:
+  Rust:
+    code: 605206
+    comments: 36566
+    blanks: 66213
+    files: 2084
+  WebAssembly:
+    code: 109366
+    comments: 162978
+    blanks: 10280
+    files: 3079
+  Toml:
+    code: 10839
+    comments: 413
+    blanks: 1870
+    files: 109
+  CppHeader:
+    code: 6066
+    comments: 2444
+    blanks: 1694
+    files: 64
+  Cpp:
+    code: 4892
+    comments: 283
+    blanks: 924
+    files: 60
+  JavaScript:
+    code: 3211
+    comments: 246
+    blanks: 263
+    files: 9
+  CHeader:
+    code: 3126
+    comments: 7403
+    blanks: 1218
+    files: 51
+  C:
+    code: 2243
+    comments: 418
+    blanks: 399
+    files: 27
+  Sh:
+    code: 1303
+    comments: 355
+    blanks: 312
+    files: 37
+  Json:
+    code: 1167
+    comments: 0
+    blanks: 0
+    files: 8
+  CMake:
+    code: 397
+    comments: 48
+    blanks: 51
+    files: 5
+  Autoconf:
+    code: 327
+    comments: 1748
+    blanks: 580
+    files: 3
+  Css:
+    code: 274
+    comments: 2
+    blanks: 49
+    files: 3
+  Svg:
+    code: 263
+    comments: 1
+    blanks: 1
+    files: 1
+  OCaml:
+    code: 96
+    comments: 27
+    blanks: 17
+    files: 1
+  Pest:
+    code: 78
+    comments: 8
+    blanks: 32
+    files: 1
+  Dockerfile:
+    code: 58
+    comments: 12
+    blanks: 19
+    files: 8
+  Makefile:
+    code: 36
+    comments: 10
+    blanks: 13
+    files: 2
+  TypeScript:
+    code: 22
+    comments: 25
+    blanks: 14
+    files: 2
+  Python:
+    code: 13
+    comments: 20
+    blanks: 4
+    files: 1
+  Markdown:
+    code: 0
+    comments: 12298
+    blanks: 3643
+    files: 159
+  Text:
+    code: 0
+    comments: 2017
+    blanks: 0
+    files: 4
+total:
+  code: 750335
+  comments: 298520
+  blanks: 101509
+  files: 5718
+---
+
+---
