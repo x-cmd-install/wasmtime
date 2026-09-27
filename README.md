@@ -14,11 +14,11 @@ x install wasmtime
 
 ## Code insight
 
-Total: **751,116** lines of code across **5404** files in the top 5 languages.
+Total: **751,433** lines of code across **5405** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 606,634 | 36,704 | 66,457 | 2082 |
+| Rust | 606,951 | 36,726 | 66,496 | 2083 |
 | WebAssembly | 110,056 | 163,573 | 10,377 | 3089 |
 | Toml | 10,843 | 413 | 1,871 | 109 |
 | CppHeader | 6,069 | 2,448 | 1,695 | 64 |
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 18,657 · **Forks**: 1,837 · **Open issues**: 3,644 · **Contributors**: 751
+- **Stars**: 18,659 · **Forks**: 1,838 · **Open issues**: 3,645 · **Contributors**: 751
 
 ## Totals (cumulative)
 
-- **Releases**: 217 · **Merged PRs**: 9869 · **Open PRs**: 79 · **Closed issues**: 2889 · **Open issues**: 755 · **Commits**: 17235
+- **Releases**: 217 · **Merged PRs**: 9870 · **Open PRs**: 80 · **Closed issues**: 2890 · **Open issues**: 755 · **Commits**: 17236
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-27 | 7 | 142 | 10 | 30 | 18 | 135 |
-| last60d | 2026-07-28 | 17 | 285 | 15 | 63 | 33 | 257 |
-| 90d | 2026-06-28 | 20 | 457 | 21 | 120 | 49 | 425 |
-| last180d | 2026-03-30 | 44 | 1070 | 31 | 237 | 95 | 1008 |
-| 360d | 2025-10-01 | 72 | 1880 | 40 | 421 | 153 | 1756 |
-| last720d | 2024-10-06 | 99 | 3624 | 50 | 836 | 283 | 3307 |
+| 30d | 2026-08-28 | 7 | 136 | 11 | 28 | 18 | 97 |
+| last60d | 2026-07-29 | 17 | 280 | 15 | 63 | 33 | 227 |
+| 90d | 2026-06-29 | 20 | 448 | 22 | 114 | 48 | 385 |
+| last180d | 2026-03-31 | 44 | 1056 | 32 | 236 | 92 | 951 |
+| 360d | 2025-10-02 | 72 | 1880 | 41 | 421 | 150 | 1729 |
+| last720d | 2024-10-07 | 99 | 3621 | 51 | 837 | 283 | 3306 |
 
 ## Release assets
 
@@ -118,4 +118,4 @@ Install metadata for wasmtime lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260926.yml` · 2026-09-26T04:58:13Z._
+_Snapshot: `data/card/260927.yml` · 2026-09-27T05:35:57Z._
