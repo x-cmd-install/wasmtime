@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 51826,
       "digest": "sha256:09eb9c1a09abb057c61c3dc6979d34277272867610af065246057e1bdf327527",
-      "download_count": 10,
+      "download_count": 12,
       "created_at": "2026-10-02T16:52:41Z",
       "updated_at": "2026-10-02T16:52:42Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasi_snapshot_preview1.command.wasm"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 51632,
       "digest": "sha256:90b99ee01bfdb8f128bed56240f43a60ae5b016151f2f0c94bc4814a62f17d50",
-      "download_count": 16,
+      "download_count": 17,
       "created_at": "2026-10-02T16:52:41Z",
       "updated_at": "2026-10-02T16:52:42Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasi_snapshot_preview1.reactor.wasm"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 13669448,
       "digest": "sha256:a97a874152b5fb49c4720b39b96a71d00ba61eab5ad59976163b7ddd1a3b14c0",
-      "download_count": 9,
+      "download_count": 11,
       "created_at": "2026-10-02T16:52:42Z",
       "updated_at": "2026-10-02T16:52:43Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasmtime-v49.0.2-aarch64-linux-c-api.tar.xz"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 10967300,
       "digest": "sha256:ca14988c6da3d92512bd9c3bad6cbd06b1f5743b6911a9e709f1a6fa30637d7f",
-      "download_count": 232,
+      "download_count": 398,
       "created_at": "2026-10-02T16:52:42Z",
       "updated_at": "2026-10-02T16:52:43Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasmtime-v49.0.2-aarch64-linux.tar.xz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 13005868,
       "digest": "sha256:f7000ab1661495d09b9dc87a11b356941b4e6097f295434bcb30a8cf1393b0d5",
-      "download_count": 7,
+      "download_count": 22,
       "created_at": "2026-10-02T16:52:42Z",
       "updated_at": "2026-10-02T16:52:43Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasmtime-v49.0.2-aarch64-macos-c-api.tar.xz"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 9565456,
       "digest": "sha256:ea5a79261caa39819b863fd850879428cf90548353e1e5cf9bcbcc4e7addf2c1",
-      "download_count": 295,
+      "download_count": 451,
       "created_at": "2026-10-02T16:52:43Z",
       "updated_at": "2026-10-02T16:52:44Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasmtime-v49.0.2-aarch64-macos.tar.xz"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 11059080,
       "digest": "sha256:836fdb419c061f2cc8002f7902ce4576f4d96969ede7daaa58a8dd55a5d5419b",
-      "download_count": 4,
+      "download_count": 5,
       "created_at": "2026-10-02T16:52:43Z",
       "updated_at": "2026-10-02T16:52:44Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasmtime-v49.0.2-aarch64-musl.tar.xz"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 12193971,
       "digest": "sha256:e3a5cf6a18b9af5e922f5e3434711278311b58da010765d9bb5b7885a1bf2095",
-      "download_count": 54,
+      "download_count": 84,
       "created_at": "2026-10-02T16:52:43Z",
       "updated_at": "2026-10-02T16:52:44Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasmtime-v49.0.2-aarch64-windows.zip"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 12234276,
       "digest": "sha256:8c5e873039a4430376560ae8a4944a5eab16dc165cb45c2b13e39e11e8b5ddd2",
-      "download_count": 5,
+      "download_count": 8,
       "created_at": "2026-10-02T16:52:45Z",
       "updated_at": "2026-10-02T16:52:46Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasmtime-v49.0.2-i686-linux.tar.xz"
@@ -787,7 +787,7 @@
       "state": "uploaded",
       "size": 12529651,
       "digest": "sha256:fbb32c2772d6dfd488b178ab83212400fca397af961c9a21523384551b642c52",
-      "download_count": 5,
+      "download_count": 8,
       "created_at": "2026-10-02T16:52:45Z",
       "updated_at": "2026-10-02T16:52:46Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasmtime-v49.0.2-i686-windows.zip"
@@ -859,7 +859,7 @@
       "state": "uploaded",
       "size": 12584860,
       "digest": "sha256:758c149bf1e352ce11018b7c3c66ed89af95ff3c736e84e0f6d4fa3ebd3747a6",
-      "download_count": 23,
+      "download_count": 32,
       "created_at": "2026-10-02T16:52:46Z",
       "updated_at": "2026-10-02T16:52:47Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasmtime-v49.0.2-riscv64gc-linux.tar.xz"
@@ -931,7 +931,7 @@
       "state": "uploaded",
       "size": 11203856,
       "digest": "sha256:5e6b2f19c3d6004628bdc5b721c090fc53f9faa504fa8c843a77a46af412e527",
-      "download_count": 22,
+      "download_count": 31,
       "created_at": "2026-10-02T16:52:46Z",
       "updated_at": "2026-10-02T16:52:47Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasmtime-v49.0.2-s390x-linux.tar.xz"
@@ -967,7 +967,7 @@
       "state": "uploaded",
       "size": 201447265,
       "digest": "sha256:8dbfaa56c576471e954e96e24e57acaab2457f68a194a97386ecc2c56f1faba2",
-      "download_count": 25,
+      "download_count": 27,
       "created_at": "2026-10-02T16:52:46Z",
       "updated_at": "2026-10-02T16:52:54Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasmtime-v49.0.2-src.tar.gz"
@@ -1003,7 +1003,7 @@
       "state": "uploaded",
       "size": 15967724,
       "digest": "sha256:4d226b59e31c6a7e3ab3df52972df971c754462e5a16f515d47dfdf180c00ccb",
-      "download_count": 3,
+      "download_count": 5,
       "created_at": "2026-10-02T16:52:47Z",
       "updated_at": "2026-10-02T16:52:48Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasmtime-v49.0.2-x86_64-android-c-api.tar.xz"
@@ -1075,7 +1075,7 @@
       "state": "uploaded",
       "size": 16049324,
       "digest": "sha256:4818e139aeb83b7adbaaf41b267bf18992c18463ae26d1a9acdcfc63ea9eb316",
-      "download_count": 49,
+      "download_count": 108,
       "created_at": "2026-10-02T16:52:47Z",
       "updated_at": "2026-10-02T16:52:48Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasmtime-v49.0.2-x86_64-linux-c-api.tar.xz"
@@ -1111,7 +1111,7 @@
       "state": "uploaded",
       "size": 11635696,
       "digest": "sha256:a4d6e9e3a5a60f527cf7793d674c48930c80c2e8977995b8a275cad3254b9322",
-      "download_count": 2776,
+      "download_count": 5053,
       "created_at": "2026-10-02T16:52:48Z",
       "updated_at": "2026-10-02T16:52:48Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasmtime-v49.0.2-x86_64-linux.tar.xz"
@@ -1147,7 +1147,7 @@
       "state": "uploaded",
       "size": 15043996,
       "digest": "sha256:1a1fd4bcec77d65bab1bdd4c38e4168825b7679c2f105bf573c4ef1cf5e779b1",
-      "download_count": 3,
+      "download_count": 5,
       "created_at": "2026-10-02T16:52:48Z",
       "updated_at": "2026-10-02T16:52:49Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasmtime-v49.0.2-x86_64-macos-c-api.tar.xz"
@@ -1183,7 +1183,7 @@
       "state": "uploaded",
       "size": 10848216,
       "digest": "sha256:b24513efff6a5dbeb196e2a01097ba632a8b0ea1563ba297ada26ceb3aa067d9",
-      "download_count": 39,
+      "download_count": 70,
       "created_at": "2026-10-02T16:52:48Z",
       "updated_at": "2026-10-02T16:52:49Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasmtime-v49.0.2-x86_64-macos.tar.xz"
@@ -1219,7 +1219,7 @@
       "state": "uploaded",
       "size": 30441532,
       "digest": "sha256:113603c5627adc5ea89d80554434662198aa205d248ba7837c609604ee87ff1c",
-      "download_count": 3,
+      "download_count": 9,
       "created_at": "2026-10-02T16:52:48Z",
       "updated_at": "2026-10-02T16:52:50Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasmtime-v49.0.2-x86_64-mingw-c-api.zip"
@@ -1327,7 +1327,7 @@
       "state": "uploaded",
       "size": 12281724,
       "digest": "sha256:1e81f61cc8f8e936e1305ca757ab7c9b5d1f0778828a8d6a846d34b5b537b662",
-      "download_count": 12,
+      "download_count": 18,
       "created_at": "2026-10-02T16:52:49Z",
       "updated_at": "2026-10-02T16:52:50Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasmtime-v49.0.2-x86_64-musl.tar.xz"
@@ -1363,7 +1363,7 @@
       "state": "uploaded",
       "size": 28633440,
       "digest": "sha256:928dad67acbf4a4f97be8d528b271ac72f8e329da21e327b0724d3af86fe3f44",
-      "download_count": 20,
+      "download_count": 56,
       "created_at": "2026-10-02T16:52:50Z",
       "updated_at": "2026-10-02T16:52:51Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasmtime-v49.0.2-x86_64-windows-c-api.zip"
@@ -1399,7 +1399,7 @@
       "state": "uploaded",
       "size": 12943360,
       "digest": "sha256:5e2066bfbc3e82f34e84e53bc01b13f1cd7664dc5f751d0d380bfb3af5278fa8",
-      "download_count": 95,
+      "download_count": 108,
       "created_at": "2026-10-02T16:52:50Z",
       "updated_at": "2026-10-02T16:52:51Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasmtime-v49.0.2-x86_64-windows.msi"
@@ -1435,7 +1435,7 @@
       "state": "uploaded",
       "size": 13330289,
       "digest": "sha256:c95a3925acde6398808baabe5ad13d0b1df02b004bc256c00cf8e2a36daccea8",
-      "download_count": 336,
+      "download_count": 451,
       "created_at": "2026-10-02T16:52:51Z",
       "updated_at": "2026-10-02T16:52:51Z",
       "browser_download_url": "https://github.com/bytecodealliance/wasmtime/releases/download/v49.0.2/wasmtime-v49.0.2-x86_64-windows.zip"
