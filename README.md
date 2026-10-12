@@ -14,7 +14,7 @@ x install wasmtime
 
 ## Code insight
 
-Total: **762,929** lines of code across **5464** files in the top 5 languages.
+Total: **762,941** lines of code across **5464** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `dev` (2026-10-02)
-- **Last commit**: 2026-10-11
+- **Last commit**: 2026-10-12
 - **Assets in release**: 39
 
 ## Popularity
 
-- **Stars**: 18,713 · **Forks**: 1,855 · **Open issues**: 3,687 · **Contributors**: 759
+- **Stars**: 18,712 · **Forks**: 1,857 · **Open issues**: 3,689 · **Contributors**: 759
 
 ## Totals (cumulative)
 
-- **Releases**: 221 · **Merged PRs**: 10023 · **Open PRs**: 95 · **Closed issues**: 2923 · **Open issues**: 764 · **Commits**: 17373
+- **Releases**: 221 · **Merged PRs**: 10025 · **Open PRs**: 97 · **Closed issues**: 2923 · **Open issues**: 766 · **Commits**: 17375
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-11 | 8 | 225 | 30 | 37 | 30 | 187 |
-| last60d | 2026-08-12 | 17 | 360 | 31 | 71 | 40 | 306 |
-| 90d | 2026-07-13 | 24 | 528 | 36 | 124 | 55 | 465 |
-| last180d | 2026-04-14 | 44 | 1072 | 42 | 241 | 98 | 961 |
-| 360d | 2025-10-16 | 75 | 1960 | 57 | 436 | 157 | 1792 |
-| last720d | 2024-10-21 | 99 | 3697 | 67 | 863 | 277 | 3383 |
+| 30d | 2026-09-12 | 8 | 226 | 32 | 36 | 32 | 189 |
+| last60d | 2026-08-13 | 17 | 358 | 33 | 70 | 42 | 308 |
+| 90d | 2026-07-14 | 24 | 527 | 37 | 122 | 56 | 467 |
+| last180d | 2026-04-15 | 44 | 1068 | 44 | 240 | 98 | 963 |
+| 360d | 2025-10-17 | 75 | 1958 | 59 | 436 | 159 | 1794 |
+| last720d | 2024-10-22 | 99 | 3692 | 69 | 863 | 278 | 3383 |
 
 ## Release assets
 
@@ -118,4 +118,4 @@ Install metadata for wasmtime lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261011.yml` · 2026-10-11T05:56:11Z._
+_Snapshot: `data/card/261012.yml` · 2026-10-12T06:03:18Z._
