@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 18,760 · **Forks**: 1,886 · **Open issues**: 3,753 · **Contributors**: 771
+- **Stars**: 18,772 · **Forks**: 1,892 · **Open issues**: 3,755 · **Contributors**: 771
 
 ## Totals (cumulative)
 
-- **Releases**: 228 · **Merged PRs**: 10234 · **Open PRs**: 111 · **Closed issues**: 2997 · **Open issues**: 756 · **Commits**: 17565
+- **Releases**: 228 · **Merged PRs**: 10234 · **Open PRs**: 112 · **Closed issues**: 2998 · **Open issues**: 757 · **Commits**: 17565
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 11 | 361 | 47 | 75 | 34 | 308 |
-| last60d | 2026-08-26 | 18 | 509 | 49 | 112 | 46 | 439 |
-| 90d | 2026-07-27 | 28 | 657 | 50 | 147 | 58 | 558 |
-| last180d | 2026-04-28 | 50 | 1205 | 59 | 270 | 98 | 1084 |
-| 360d | 2025-10-30 | 79 | 2113 | 73 | 486 | 154 | 1942 |
-| last720d | 2024-11-04 | 99 | 3864 | 83 | 921 | 269 | 3533 |
+| 30d | 2026-09-26 | 11 | 360 | 48 | 76 | 35 | 308 |
+| last60d | 2026-08-27 | 18 | 507 | 50 | 112 | 47 | 439 |
+| 90d | 2026-07-28 | 28 | 650 | 51 | 148 | 59 | 558 |
+| last180d | 2026-04-29 | 50 | 1201 | 60 | 268 | 98 | 1084 |
+| 360d | 2025-10-31 | 79 | 2113 | 74 | 486 | 155 | 1942 |
+| last720d | 2024-11-05 | 99 | 3849 | 84 | 919 | 270 | 3526 |
 
 ## Release assets
 
@@ -130,4 +130,4 @@ Install metadata for wasmtime lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T04:46:46Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T04:48:32Z._
