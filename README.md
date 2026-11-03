@@ -14,13 +14,13 @@ x install wasmtime
 
 ## Code insight
 
-Total: **790,237** lines of code across **5539** files in the top 5 languages.
+Total: **790,307** lines of code across **5539** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 633,458 | 38,236 | 68,324 | 2137 |
+| Rust | 633,522 | 38,236 | 68,325 | 2137 |
 | WebAssembly | 121,738 | 141,086 | 11,576 | 3168 |
-| Toml | 10,911 | 423 | 1,891 | 109 |
+| Toml | 10,916 | 423 | 1,892 | 109 |
 | CppHeader | 6,082 | 2,484 | 1,699 | 64 |
 | Cpp | 5,216 | 309 | 975 | 61 |
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `dev` (2026-10-29)
-- **Last commit**: 2026-10-31
+- **Last commit**: 2026-11-02
 - **Assets in release**: 39
 
 ## Popularity
 
-- **Stars**: 18,813 · **Forks**: 1,907 · **Open issues**: 3,783 · **Contributors**: 783
+- **Stars**: 18,822 · **Forks**: 1,909 · **Open issues**: 3,787 · **Contributors**: 783
 
 ## Totals (cumulative)
 
-- **Releases**: 232 · **Merged PRs**: 10305 · **Open PRs**: 123 · **Closed issues**: 3028 · **Open issues**: 755 · **Commits**: 17626
+- **Releases**: 232 · **Merged PRs**: 10315 · **Open PRs**: 129 · **Closed issues**: 3030 · **Open issues**: 757 · **Commits**: 17632
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 12 | 365 | 54 | 90 | 35 | 293 |
-| last60d | 2026-09-03 | 22 | 539 | 61 | 130 | 45 | 473 |
-| 90d | 2026-08-04 | 28 | 679 | 62 | 161 | 56 | 601 |
-| last180d | 2026-05-06 | 49 | 1214 | 71 | 286 | 93 | 1103 |
-| 360d | 2025-11-07 | 83 | 2150 | 85 | 506 | 153 | 1984 |
-| last720d | 2024-11-12 | 99 | 3901 | 95 | 939 | 267 | 3566 |
+| 30d | 2026-10-04 | 12 | 370 | 60 | 90 | 36 | 300 |
+| last60d | 2026-09-04 | 22 | 543 | 67 | 132 | 47 | 480 |
+| 90d | 2026-08-05 | 28 | 684 | 68 | 163 | 58 | 608 |
+| last180d | 2026-05-07 | 49 | 1215 | 77 | 286 | 95 | 1110 |
+| 360d | 2025-11-08 | 83 | 2160 | 91 | 507 | 155 | 1991 |
+| last720d | 2024-11-13 | 99 | 3909 | 101 | 941 | 269 | 3570 |
 
 ## Release assets
 
@@ -109,6 +109,18 @@ Lowest-scoring checks:
 | [wasmtime-v50.0.1-x86_64-windows.msi](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.1/wasmtime-v50.0.1-x86_64-windows.msi) | 12.2 MiB | `native/win/x64` |
 | [wasmtime-v50.0.1-x86_64-windows.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.1/wasmtime-v50.0.1-x86_64-windows.zip) | 12.5 MiB | `native/win/x64` |
 
+## Distribution status
+
+Reported by **51** distros on [repology.org](https://repology.org/project/wasmtime). **14** are ✅ on the latest upstream release, **25** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Arch | `50.0.1` | ✅ latest |
+| Homebrew | `50.0.1` | ✅ latest |
+| Nix unstable | `50.0.0` | ⚠️ outdated |
+| Void | `0.25.0` | ⚠️ outdated |
+| Alpine edge | `47.0.3` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for wasmtime lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `wasmtime` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -118,4 +130,4 @@ Install metadata for wasmtime lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T06:11:46Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T06:53:24Z._
