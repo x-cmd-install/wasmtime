@@ -14,25 +14,25 @@ x install wasmtime
 
 ## Code insight
 
-Total: **789,692** lines of code across **5536** files in the top 5 languages.
+Total: **791,083** lines of code across **5545** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 632,635 | 38,215 | 68,187 | 2132 |
-| WebAssembly | 122,148 | 141,165 | 11,650 | 3171 |
+| Rust | 633,292 | 38,332 | 68,263 | 2132 |
+| WebAssembly | 122,881 | 141,405 | 11,724 | 3180 |
 | Toml | 10,899 | 417 | 1,887 | 108 |
 | CppHeader | 6,076 | 2,481 | 1,697 | 64 |
 | Cpp | 5,217 | 309 | 978 | 61 |
 
 ## OpenSSF Scorecard
 
-Overall score: **6.2 / 10**
+Overall score: **6.4 / 10**
 
 Lowest-scoring checks:
 
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Branch-Protection** (4/10) — branch protection is not maximal on development and all release branches
+- **Pinned-Dependencies** (3/10) — dependency not pinned by hash detected -- score normalized to 3
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `dev` (2026-10-29)
-- **Last commit**: 2026-11-03
+- **Last commit**: 2026-11-05
 - **Assets in release**: 39
 
 ## Popularity
 
-- **Stars**: 18,819 · **Forks**: 1,911 · **Open issues**: 3,791 · **Contributors**: 783
+- **Stars**: 18,822 · **Forks**: 1,914 · **Open issues**: 3,791 · **Contributors**: 782
 
 ## Totals (cumulative)
 
-- **Releases**: 232 · **Merged PRs**: 10342 · **Open PRs**: 110 · **Closed issues**: 3035 · **Open issues**: 756 · **Commits**: 17658
+- **Releases**: 233 · **Merged PRs**: 10349 · **Open PRs**: 115 · **Closed issues**: 3036 · **Open issues**: 755 · **Commits**: 17667
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 12 | 371 | 41 | 92 | 37 | 326 |
-| last60d | 2026-09-05 | 22 | 567 | 48 | 133 | 47 | 506 |
-| 90d | 2026-08-06 | 28 | 705 | 49 | 166 | 59 | 634 |
-| last180d | 2026-05-08 | 49 | 1237 | 58 | 288 | 94 | 1136 |
-| 360d | 2025-11-09 | 83 | 2186 | 72 | 512 | 154 | 2017 |
-| last720d | 2024-11-14 | 99 | 3931 | 82 | 946 | 267 | 3594 |
+| 30d | 2026-10-06 | 12 | 361 | 45 | 74 | 34 | 336 |
+| last60d | 2026-09-06 | 22 | 576 | 53 | 133 | 47 | 516 |
+| 90d | 2026-08-07 | 29 | 714 | 54 | 166 | 59 | 644 |
+| last180d | 2026-05-09 | 50 | 1245 | 63 | 289 | 94 | 1146 |
+| 360d | 2025-11-10 | 84 | 2191 | 77 | 513 | 153 | 2027 |
+| last720d | 2024-11-15 | 99 | 3937 | 87 | 948 | 265 | 3600 |
 
 ## Release assets
 
@@ -130,4 +130,4 @@ Install metadata for wasmtime lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T06:20:07Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T06:44:32Z._
