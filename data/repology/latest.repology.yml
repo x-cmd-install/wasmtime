@@ -184,7 +184,7 @@
   binname: mingw-w64-clang-x86_64-libwasmtime
   visiblename: mingw-w64-clang-x86_64-libwasmtime
   version: 50.0.1
-  origversion: 50.0.1-1
+  origversion: 50.0.1-2
   status: newest
   summary: A fast and secure runtime for WebAssembly (mingw-w64) (C-API)
   licenses:
@@ -194,7 +194,17 @@
   binname: mingw-w64-clang-x86_64-wasmtime
   visiblename: mingw-w64-clang-x86_64-wasmtime
   version: 50.0.1
-  origversion: 50.0.1-1
+  origversion: 50.0.1-2
+  status: newest
+  summary: A fast and secure runtime for WebAssembly (mingw-w64)
+  licenses:
+    - spdx:Apache-2.0
+- repo: msys2_clangarm64
+  srcname: mingw-w64-wasmtime
+  binname: mingw-w64-clang-aarch64-wasmtime
+  visiblename: mingw-w64-clang-aarch64-wasmtime
+  version: 50.0.1
+  origversion: 50.0.1-2
   status: newest
   summary: A fast and secure runtime for WebAssembly (mingw-w64)
   licenses:
@@ -204,29 +214,9 @@
   binname: mingw-w64-clang-aarch64-libwasmtime
   visiblename: mingw-w64-clang-aarch64-libwasmtime
   version: 50.0.1
-  origversion: 50.0.1-1
+  origversion: 50.0.1-2
   status: newest
   summary: A fast and secure runtime for WebAssembly (mingw-w64) (C-API)
-  licenses:
-    - spdx:Apache-2.0
-- repo: msys2_clangarm64
-  srcname: mingw-w64-wasmtime
-  binname: mingw-w64-clang-aarch64-wasmtime
-  visiblename: mingw-w64-clang-aarch64-wasmtime
-  version: 50.0.1
-  origversion: 50.0.1-1
-  status: newest
-  summary: A fast and secure runtime for WebAssembly (mingw-w64)
-  licenses:
-    - spdx:Apache-2.0
-- repo: msys2_ucrt64
-  srcname: mingw-w64-wasmtime
-  binname: mingw-w64-ucrt-x86_64-wasmtime
-  visiblename: mingw-w64-ucrt-x86_64-wasmtime
-  version: 50.0.1
-  origversion: 50.0.1-1
-  status: newest
-  summary: A fast and secure runtime for WebAssembly (mingw-w64)
   licenses:
     - spdx:Apache-2.0
 - repo: msys2_ucrt64
@@ -234,9 +224,19 @@
   binname: mingw-w64-ucrt-x86_64-libwasmtime
   visiblename: mingw-w64-ucrt-x86_64-libwasmtime
   version: 50.0.1
-  origversion: 50.0.1-1
+  origversion: 50.0.1-2
   status: newest
   summary: A fast and secure runtime for WebAssembly (mingw-w64) (C-API)
+  licenses:
+    - spdx:Apache-2.0
+- repo: msys2_ucrt64
+  srcname: mingw-w64-wasmtime
+  binname: mingw-w64-ucrt-x86_64-wasmtime
+  visiblename: mingw-w64-ucrt-x86_64-wasmtime
+  version: 50.0.1
+  origversion: 50.0.1-2
+  status: newest
+  summary: A fast and secure runtime for WebAssembly (mingw-w64)
   licenses:
     - spdx:Apache-2.0
 - repo: nix_stable_26_05
