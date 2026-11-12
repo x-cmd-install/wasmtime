@@ -96,16 +96,15 @@
     - chocobo1@aur
   licenses:
     - Apache
-- repo: termux
-  srcname: wasmtime
+- repo: scoop
+  subrepo: main
   binname: wasmtime
   visiblename: wasmtime
   version: 50.0.1
   origversion: null
   status: newest
-  summary: A standalone runtime for WebAssembly
-  maintainers:
-    - termux@github
+  licenses:
+    - Apache-2.0
 - repo: freebsd
   srcname: www/wasmtime
   binname: wasmtime
@@ -201,22 +200,22 @@
     - spdx:Apache-2.0
 - repo: msys2_clangarm64
   srcname: mingw-w64-wasmtime
-  binname: mingw-w64-clang-aarch64-wasmtime
-  visiblename: mingw-w64-clang-aarch64-wasmtime
-  version: 50.0.1
-  origversion: 50.0.1-2
-  status: newest
-  summary: A fast and secure runtime for WebAssembly (mingw-w64)
-  licenses:
-    - spdx:Apache-2.0
-- repo: msys2_clangarm64
-  srcname: mingw-w64-wasmtime
   binname: mingw-w64-clang-aarch64-libwasmtime
   visiblename: mingw-w64-clang-aarch64-libwasmtime
   version: 50.0.1
   origversion: 50.0.1-2
   status: newest
   summary: A fast and secure runtime for WebAssembly (mingw-w64) (C-API)
+  licenses:
+    - spdx:Apache-2.0
+- repo: msys2_clangarm64
+  srcname: mingw-w64-wasmtime
+  binname: mingw-w64-clang-aarch64-wasmtime
+  visiblename: mingw-w64-clang-aarch64-wasmtime
+  version: 50.0.1
+  origversion: 50.0.1-2
+  status: newest
+  summary: A fast and secure runtime for WebAssembly (mingw-w64)
   licenses:
     - spdx:Apache-2.0
 - repo: msys2_ucrt64
@@ -272,6 +271,16 @@
   maintainers:
     - ereslibre@ereslibre.es
     - hey@winston.sh
+- repo: nix_unstable
+  srcname: wasmtime_48
+  visiblename: wasmtime
+  version: 48.0.6
+  origversion: null
+  status: legacy
+  summary: Standalone JIT-style runtime for WebAssembly, using Cranelift
+  maintainers:
+    - ereslibre@ereslibre.es
+    - hey@winston.sh
 - repo: parabola
   subrepo: extra
   srcname: wasmtime
@@ -283,15 +292,16 @@
   summary: Standalone JIT-style runtime for WebAssembly, using Cranelift
   licenses:
     - Apache-2.0
-- repo: scoop
-  subrepo: main
+- repo: termux
+  srcname: wasmtime
   binname: wasmtime
   visiblename: wasmtime
   version: 50.0.1
   origversion: null
   status: newest
-  licenses:
-    - Apache-2.0
+  summary: A standalone runtime for WebAssembly
+  maintainers:
+    - termux@github
 - repo: wikidata
   srcname: Q119398768
   visiblename: Wasmtime
@@ -301,6 +311,41 @@
   summary: WebAssembly runtime
   licenses:
     - Apache License v2.0 with LLVM Exceptions
+- repo: conancenter
+  srcname: wasmtime
+  visiblename: wasmtime
+  version: 7.0.0
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: conancenter
+  srcname: wasmtime
+  visiblename: wasmtime
+  version: 18.0.3
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: conancenter
+  srcname: wasmtime
+  visiblename: wasmtime
+  version: 16.0.0
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: conancenter
+  srcname: wasmtime
+  visiblename: wasmtime
+  version: 12.0.2
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: conancenter
+  srcname: wasmtime
+  visiblename: wasmtime
+  version: 9.0.1
+  origversion: null
+  status: legacy
+  vulnerable: true
 - repo: alpine_3_24
   subrepo: community
   srcname: wasmtime
@@ -437,41 +482,6 @@
   srcname: wasmtime
   visiblename: wasmtime
   version: 19.0.2
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: conancenter
-  srcname: wasmtime
-  visiblename: wasmtime
-  version: 18.0.3
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: conancenter
-  srcname: wasmtime
-  visiblename: wasmtime
-  version: 16.0.0
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: conancenter
-  srcname: wasmtime
-  visiblename: wasmtime
-  version: 12.0.2
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: conancenter
-  srcname: wasmtime
-  visiblename: wasmtime
-  version: 9.0.1
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: conancenter
-  srcname: wasmtime
-  visiblename: wasmtime
-  version: 7.0.0
   origversion: null
   status: legacy
   vulnerable: true
