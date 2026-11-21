@@ -14,15 +14,15 @@ x install wasmtime
 
 ## 代码洞察
 
-合计: **798,749** 行代码（覆盖前 5 种语言、共 **5582** 个文件）。
+合计: **799,031** 行代码（覆盖前 5 种语言、共 **5583** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 639,583 | 38,831 | 69,025 | 2143 |
+| Rust | 639,778 | 38,943 | 69,060 | 2144 |
 | WebAssembly | 124,129 | 143,107 | 11,897 | 3206 |
 | Toml | 11,030 | 431 | 1,909 | 108 |
 | CppHeader | 6,057 | 2,488 | 1,697 | 64 |
-| Cpp | 5,230 | 309 | 980 | 61 |
+| Cpp | 5,317 | 311 | 990 | 61 |
 
 ## OpenSSF Scorecard 评分
 
@@ -42,76 +42,76 @@ x install wasmtime
 
 ## 发布
 
-- **最新版本**: `dev` (2026-11-19)
-- **最近提交**: 2026-11-19
+- **最新版本**: `dev` (2026-11-20)
+- **最近提交**: 2026-11-21
 - **Release 含资产**: 39 个
 
 ## 流行度
 
-- **Star**: 18,878 · **Fork**: 1,940 · **开放 issue**: 3,847 · **贡献者**: 791
+- **Star**: 18,883 · **Fork**: 1,943 · **开放 issue**: 3,851 · **贡献者**: 792
 
 ## 累计统计
 
-- **发布数**: 241 · **已合并 PR**: 10499 · **开放 PR**: 115 · **已关闭 issue**: 3084 · **开放 issue**: 763 · **提交数**: 17790
+- **发布数**: 242 · **已合并 PR**: 10518 · **开放 PR**: 102 · **已关闭 issue**: 3089 · **开放 issue**: 762 · **提交数**: 17808
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 13 | 283 | 38 | 66 | 42 | 260 |
-| last60d | 2026-09-21 | 28 | 672 | 53 | 155 | 56 | 601 |
-| 90d | 2026-08-22 | 32 | 794 | 54 | 192 | 67 | 721 |
-| last180d | 2026-05-24 | 54 | 1293 | 61 | 315 | 105 | 1190 |
-| 360d | 2025-11-25 | 86 | 2290 | 76 | 545 | 162 | 2120 |
-| last720d | 2024-11-30 | 99 | 4031 | 85 | 975 | 273 | 3671 |
+| 30d | 2026-10-22 | 14 | 286 | 39 | 66 | 37 | 278 |
+| last60d | 2026-09-22 | 28 | 685 | 51 | 158 | 55 | 619 |
+| 90d | 2026-08-23 | 33 | 813 | 54 | 196 | 66 | 739 |
+| last180d | 2026-05-25 | 55 | 1311 | 61 | 320 | 103 | 1208 |
+| 360d | 2025-11-26 | 87 | 2305 | 72 | 549 | 159 | 2138 |
+| last720d | 2024-12-01 | 99 | 4049 | 76 | 979 | 271 | 3688 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [isle-veri-cache.tar.gz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/isle-veri-cache.tar.gz) | 3.9 MiB | `native/unknown` |
-| [wasi_snapshot_preview1.command.wasm](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasi_snapshot_preview1.command.wasm) | 50.6 KiB | `other` |
-| [wasi_snapshot_preview1.proxy.wasm](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasi_snapshot_preview1.proxy.wasm) | 16.7 KiB | `other` |
-| [wasi_snapshot_preview1.reactor.wasm](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasi_snapshot_preview1.reactor.wasm) | 50.4 KiB | `other` |
-| [wasmtime-platform.h](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-platform.h) | 11.8 KiB | `other` |
-| [wasmtime-v50.0.3-aarch64-android-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-aarch64-android-c-api.tar.xz) | 12.8 MiB | `other` |
-| [wasmtime-v50.0.3-aarch64-android.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-aarch64-android.tar.xz) | 10.0 MiB | `other` |
-| [wasmtime-v50.0.3-aarch64-linux-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-aarch64-linux-c-api.tar.xz) | 12.9 MiB | `native/linux/arm64` |
-| [wasmtime-v50.0.3-aarch64-linux.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-aarch64-linux.tar.xz) | 10.3 MiB | `native/linux/arm64` |
-| [wasmtime-v50.0.3-aarch64-macos-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-aarch64-macos-c-api.tar.xz) | 12.2 MiB | `native/darwin/arm64` |
-| [wasmtime-v50.0.3-aarch64-macos.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-aarch64-macos.tar.xz) | 9.0 MiB | `native/darwin/arm64` |
-| [wasmtime-v50.0.3-aarch64-musl-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-aarch64-musl-c-api.tar.xz) | 13.1 MiB | `other` |
-| [wasmtime-v50.0.3-aarch64-musl.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-aarch64-musl.tar.xz) | 10.4 MiB | `other` |
-| [wasmtime-v50.0.3-aarch64-windows-c-api.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-aarch64-windows-c-api.zip) | 24.8 MiB | `native/win/arm64` |
-| [wasmtime-v50.0.3-aarch64-windows.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-aarch64-windows.zip) | 11.5 MiB | `native/win/arm64` |
-| [wasmtime-v50.0.3-armv7-linux-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-armv7-linux-c-api.tar.xz) | 13.3 MiB | `native/linux/arm` |
-| [wasmtime-v50.0.3-armv7-linux.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-armv7-linux.tar.xz) | 10.5 MiB | `native/linux/arm` |
-| [wasmtime-v50.0.3-i686-linux-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-i686-linux-c-api.tar.xz) | 15.1 MiB | `native/linux/x86` |
-| [wasmtime-v50.0.3-i686-linux.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-i686-linux.tar.xz) | 11.6 MiB | `native/linux/x86` |
-| [wasmtime-v50.0.3-i686-windows-c-api.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-i686-windows-c-api.zip) | 23.9 MiB | `native/win/x64` |
-| [wasmtime-v50.0.3-i686-windows.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-i686-windows.zip) | 11.7 MiB | `native/win/x64` |
-| [wasmtime-v50.0.3-riscv64gc-linux-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-riscv64gc-linux-c-api.tar.xz) | 16.2 MiB | `native/linux/riscv64` |
-| [wasmtime-v50.0.3-riscv64gc-linux.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-riscv64gc-linux.tar.xz) | 11.7 MiB | `native/linux/riscv64` |
-| [wasmtime-v50.0.3-s390x-linux-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-s390x-linux-c-api.tar.xz) | 13.6 MiB | `other` |
-| [wasmtime-v50.0.3-s390x-linux.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-s390x-linux.tar.xz) | 10.6 MiB | `other` |
-| [wasmtime-v50.0.3-src.tar.gz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-src.tar.gz) | 192.4 MiB | `native/unknown` |
-| [wasmtime-v50.0.3-x86_64-android-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-x86_64-android-c-api.tar.xz) | 14.9 MiB | `other` |
-| [wasmtime-v50.0.3-x86_64-android.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-x86_64-android.tar.xz) | 11.0 MiB | `other` |
-| [wasmtime-v50.0.3-x86_64-linux-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-x86_64-linux-c-api.tar.xz) | 15.3 MiB | `native/linux/x64` |
-| [wasmtime-v50.0.3-x86_64-linux.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-x86_64-linux.tar.xz) | 11.1 MiB | `native/linux/x64` |
-| [wasmtime-v50.0.3-x86_64-macos-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-x86_64-macos-c-api.tar.xz) | 14.0 MiB | `native/darwin/x64` |
-| [wasmtime-v50.0.3-x86_64-macos.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-x86_64-macos.tar.xz) | 10.2 MiB | `native/darwin/x64` |
-| [wasmtime-v50.0.3-x86_64-mingw-c-api.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-x86_64-mingw-c-api.zip) | 29.0 MiB | `other` |
-| [wasmtime-v50.0.3-x86_64-mingw.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-x86_64-mingw.zip) | 20.4 MiB | `other` |
-| [wasmtime-v50.0.3-x86_64-musl-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-x86_64-musl-c-api.tar.xz) | 15.3 MiB | `other` |
-| [wasmtime-v50.0.3-x86_64-musl.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-x86_64-musl.tar.xz) | 11.5 MiB | `other` |
-| [wasmtime-v50.0.3-x86_64-windows-c-api.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-x86_64-windows-c-api.zip) | 27.0 MiB | `native/win/x64` |
-| [wasmtime-v50.0.3-x86_64-windows.msi](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-x86_64-windows.msi) | 12.2 MiB | `native/win/x64` |
-| [wasmtime-v50.0.3-x86_64-windows.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v50.0.3/wasmtime-v50.0.3-x86_64-windows.zip) | 12.5 MiB | `native/win/x64` |
+| [isle-veri-cache.tar.gz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/isle-veri-cache.tar.gz) | 4.3 MiB | `native/unknown` |
+| [wasi_snapshot_preview1.command.wasm](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasi_snapshot_preview1.command.wasm) | 50.6 KiB | `other` |
+| [wasi_snapshot_preview1.proxy.wasm](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasi_snapshot_preview1.proxy.wasm) | 16.7 KiB | `other` |
+| [wasi_snapshot_preview1.reactor.wasm](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasi_snapshot_preview1.reactor.wasm) | 50.4 KiB | `other` |
+| [wasmtime-platform.h](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-platform.h) | 11.8 KiB | `other` |
+| [wasmtime-v51.0.0-aarch64-android-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-aarch64-android-c-api.tar.xz) | 12.2 MiB | `other` |
+| [wasmtime-v51.0.0-aarch64-android.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-aarch64-android.tar.xz) | 9.5 MiB | `other` |
+| [wasmtime-v51.0.0-aarch64-linux-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-aarch64-linux-c-api.tar.xz) | 12.8 MiB | `native/linux/arm64` |
+| [wasmtime-v51.0.0-aarch64-linux.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-aarch64-linux.tar.xz) | 10.6 MiB | `native/linux/arm64` |
+| [wasmtime-v51.0.0-aarch64-macos-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-aarch64-macos-c-api.tar.xz) | 11.6 MiB | `native/darwin/arm64` |
+| [wasmtime-v51.0.0-aarch64-macos.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-aarch64-macos.tar.xz) | 8.5 MiB | `native/darwin/arm64` |
+| [wasmtime-v51.0.0-aarch64-musl-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-aarch64-musl-c-api.tar.xz) | 12.5 MiB | `other` |
+| [wasmtime-v51.0.0-aarch64-musl.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-aarch64-musl.tar.xz) | 9.9 MiB | `other` |
+| [wasmtime-v51.0.0-aarch64-windows-c-api.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-aarch64-windows-c-api.zip) | 23.9 MiB | `native/win/arm64` |
+| [wasmtime-v51.0.0-aarch64-windows.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-aarch64-windows.zip) | 11.0 MiB | `native/win/arm64` |
+| [wasmtime-v51.0.0-armv7-linux-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-armv7-linux-c-api.tar.xz) | 12.6 MiB | `native/linux/arm` |
+| [wasmtime-v51.0.0-armv7-linux.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-armv7-linux.tar.xz) | 9.9 MiB | `native/linux/arm` |
+| [wasmtime-v51.0.0-i686-linux-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-i686-linux-c-api.tar.xz) | 14.3 MiB | `native/linux/x86` |
+| [wasmtime-v51.0.0-i686-linux.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-i686-linux.tar.xz) | 10.9 MiB | `native/linux/x86` |
+| [wasmtime-v51.0.0-i686-windows-c-api.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-i686-windows-c-api.zip) | 22.9 MiB | `native/win/x64` |
+| [wasmtime-v51.0.0-i686-windows.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-i686-windows.zip) | 11.3 MiB | `native/win/x64` |
+| [wasmtime-v51.0.0-riscv64gc-linux-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-riscv64gc-linux-c-api.tar.xz) | 15.3 MiB | `native/linux/riscv64` |
+| [wasmtime-v51.0.0-riscv64gc-linux.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-riscv64gc-linux.tar.xz) | 11.2 MiB | `native/linux/riscv64` |
+| [wasmtime-v51.0.0-s390x-linux-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-s390x-linux-c-api.tar.xz) | 12.9 MiB | `other` |
+| [wasmtime-v51.0.0-s390x-linux.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-s390x-linux.tar.xz) | 10.1 MiB | `other` |
+| [wasmtime-v51.0.0-src.tar.gz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-src.tar.gz) | 194.0 MiB | `native/unknown` |
+| [wasmtime-v51.0.0-x86_64-android-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-x86_64-android-c-api.tar.xz) | 14.0 MiB | `other` |
+| [wasmtime-v51.0.0-x86_64-android.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-x86_64-android.tar.xz) | 10.3 MiB | `other` |
+| [wasmtime-v51.0.0-x86_64-linux-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-x86_64-linux-c-api.tar.xz) | 15.2 MiB | `native/linux/x64` |
+| [wasmtime-v51.0.0-x86_64-linux.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-x86_64-linux.tar.xz) | 11.4 MiB | `native/linux/x64` |
+| [wasmtime-v51.0.0-x86_64-macos-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-x86_64-macos-c-api.tar.xz) | 13.4 MiB | `native/darwin/x64` |
+| [wasmtime-v51.0.0-x86_64-macos.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-x86_64-macos.tar.xz) | 9.7 MiB | `native/darwin/x64` |
+| [wasmtime-v51.0.0-x86_64-mingw-c-api.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-x86_64-mingw-c-api.zip) | 28.1 MiB | `other` |
+| [wasmtime-v51.0.0-x86_64-mingw.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-x86_64-mingw.zip) | 19.9 MiB | `other` |
+| [wasmtime-v51.0.0-x86_64-musl-c-api.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-x86_64-musl-c-api.tar.xz) | 14.5 MiB | `other` |
+| [wasmtime-v51.0.0-x86_64-musl.tar.xz](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-x86_64-musl.tar.xz) | 11.0 MiB | `other` |
+| [wasmtime-v51.0.0-x86_64-windows-c-api.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-x86_64-windows-c-api.zip) | 25.9 MiB | `native/win/x64` |
+| [wasmtime-v51.0.0-x86_64-windows.msi](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-x86_64-windows.msi) | 12.5 MiB | `native/win/x64` |
+| [wasmtime-v51.0.0-x86_64-windows.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-x86_64-windows.zip) | 12.0 MiB | `native/win/x64` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/wasmtime) 上共有 **72** 个发行版报告此项目。**7** 个 ✅ 已是最新上游版本，**50** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/wasmtime) 上共有 **71** 个发行版报告此项目。**5** 个 ✅ 已是最新上游版本，**52** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -120,8 +120,8 @@ x install wasmtime
 | Debian 13 | `26.0.1` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `36.0.5` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `16.0.0` | ⚠️ outdated |
-| Arch | `50.0.3` | ✅ latest |
-| Homebrew | `50.0.3` | ✅ latest |
+| Arch | `51.0.0` | ✅ latest |
+| Homebrew | `51.0.0` | ✅ latest |
 | Nix unstable | `50.0.1` | ⚠️ outdated |
 | Void | `0.25.0` | ⚠️ outdated |
 | Alpine edge | `47.0.3` | ⚠️ outdated |
@@ -135,4 +135,4 @@ wasmtime 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261120.yml` · 2026-11-20T07:58:44Z._
+_数据快照: `data/card/261121.yml` · 2026-11-21T07:22:08Z._
