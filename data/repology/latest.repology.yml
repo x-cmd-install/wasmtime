@@ -1,42 +1,10 @@
-- repo: kali_rolling
-  subrepo: main
-  srcname: rust-wasmtime
-  binnames:
-    - librust-cranelift-dev
-  visiblename: rust-wasmtime
-  version: 36.0.20
-  origversion: 36.0.20+dfsg-1
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - misc
-- repo: alpine_edge
-  subrepo: community
+- repo: crates_io
   srcname: wasmtime
-  binname: libwasmtime
-  visiblename: libwasmtime
-  version: 47.0.3
-  origversion: 47.0.3-r1
-  status: outdated
-  summary: Fast and secure runtime for WebAssembly
-  maintainers:
-    - alpine@ptrcnull.me
-  licenses:
-    - Apache-2.0
-- repo: alpine_edge
-  subrepo: community
-  srcname: wasmtime
-  binname: libwasmtime-static
-  visiblename: libwasmtime-static
-  version: 47.0.3
-  origversion: 47.0.3-r1
-  status: outdated
-  summary: Fast and secure runtime for WebAssembly (static library)
-  maintainers:
-    - alpine@ptrcnull.me
-  licenses:
-    - Apache-2.0
+  visiblename: wasmtime
+  version: 51.0.0
+  origversion: null
+  status: newest
+  summary: High-level API to expose the Wasmtime runtime
 - repo: alpine_edge
   subrepo: community
   srcname: wasmtime
@@ -59,6 +27,32 @@
   origversion: 47.0.3-r1
   status: outdated
   summary: Fast and secure runtime for WebAssembly (development files)
+  maintainers:
+    - alpine@ptrcnull.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: wasmtime
+  binname: libwasmtime
+  visiblename: libwasmtime
+  version: 47.0.3
+  origversion: 47.0.3-r1
+  status: outdated
+  summary: Fast and secure runtime for WebAssembly
+  maintainers:
+    - alpine@ptrcnull.me
+  licenses:
+    - Apache-2.0
+- repo: alpine_edge
+  subrepo: community
+  srcname: wasmtime
+  binname: libwasmtime-static
+  visiblename: libwasmtime-static
+  version: 47.0.3
+  origversion: 47.0.3-r1
+  status: outdated
+  summary: Fast and secure runtime for WebAssembly (static library)
   maintainers:
     - alpine@ptrcnull.me
   licenses:
@@ -121,13 +115,18 @@
     - chocobo1@aur
   licenses:
     - Apache
-- repo: crates_io
-  srcname: wasmtime
-  visiblename: wasmtime
-  version: 51.0.0
+- repo: freebsd
+  srcname: devel/libwasmtime
+  binname: libwasmtime
+  visiblename: devel/libwasmtime
+  version: 50.0.1
   origversion: null
-  status: newest
-  summary: High-level API to expose the Wasmtime runtime
+  status: legacy
+  summary: Library for fast and secure runtime for WebAssembly
+  maintainers:
+    - longros@freebsd.org
+  categories:
+    - devel
 - repo: debian_14
   subrepo: forky/main
   srcname: rust-wasmtime
@@ -168,18 +167,6 @@
   categories:
     - misc
 - repo: freebsd
-  srcname: devel/libwasmtime
-  binname: libwasmtime
-  visiblename: devel/libwasmtime
-  version: 50.0.1
-  origversion: null
-  status: legacy
-  summary: Library for fast and secure runtime for WebAssembly
-  maintainers:
-    - longros@freebsd.org
-  categories:
-    - devel
-- repo: freebsd
   srcname: www/wasmtime
   binname: wasmtime
   visiblename: www/wasmtime
@@ -205,6 +192,19 @@
   origversion: null
   status: rolling
   summary: Standalone JIT-style runtime for WebAssembly, using Cranelift
+- repo: kali_rolling
+  subrepo: main
+  srcname: rust-wasmtime
+  binnames:
+    - librust-cranelift-dev
+  visiblename: rust-wasmtime
+  version: 36.0.20
+  origversion: 36.0.20+dfsg-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - misc
 - repo: macports
   srcname: devel/wasmtime
   binname: wasmtime
@@ -246,9 +246,9 @@
   srcname: wasmtime
   binname: wasmtime
   visiblename: wasmtime
-  version: 50.0.3
-  origversion: 50.0.3-1
-  status: outdated
+  version: 51.0.0
+  origversion: 51.0.0-1
+  status: newest
   summary: Standalone JIT-style runtime for WebAssembly, using Cranelift
   licenses:
     - Apache-2.0
@@ -256,9 +256,9 @@
   srcname: mingw-w64-wasmtime
   binname: mingw-w64-clang-x86_64-libwasmtime
   visiblename: mingw-w64-clang-x86_64-libwasmtime
-  version: 50.0.3
-  origversion: 50.0.3-1
-  status: outdated
+  version: 51.0.0
+  origversion: 51.0.0-1
+  status: newest
   summary: A fast and secure runtime for WebAssembly (mingw-w64) (C-API)
   licenses:
     - spdx:Apache-2.0
@@ -266,19 +266,9 @@
   srcname: mingw-w64-wasmtime
   binname: mingw-w64-clang-x86_64-wasmtime
   visiblename: mingw-w64-clang-x86_64-wasmtime
-  version: 50.0.3
-  origversion: 50.0.3-1
-  status: outdated
-  summary: A fast and secure runtime for WebAssembly (mingw-w64)
-  licenses:
-    - spdx:Apache-2.0
-- repo: msys2_clangarm64
-  srcname: mingw-w64-wasmtime
-  binname: mingw-w64-clang-aarch64-wasmtime
-  visiblename: mingw-w64-clang-aarch64-wasmtime
-  version: 50.0.3
-  origversion: 50.0.3-1
-  status: outdated
+  version: 51.0.0
+  origversion: 51.0.0-1
+  status: newest
   summary: A fast and secure runtime for WebAssembly (mingw-w64)
   licenses:
     - spdx:Apache-2.0
@@ -286,19 +276,19 @@
   srcname: mingw-w64-wasmtime
   binname: mingw-w64-clang-aarch64-libwasmtime
   visiblename: mingw-w64-clang-aarch64-libwasmtime
-  version: 50.0.3
-  origversion: 50.0.3-1
-  status: outdated
+  version: 51.0.0
+  origversion: 51.0.0-1
+  status: newest
   summary: A fast and secure runtime for WebAssembly (mingw-w64) (C-API)
   licenses:
     - spdx:Apache-2.0
-- repo: msys2_ucrt64
+- repo: msys2_clangarm64
   srcname: mingw-w64-wasmtime
-  binname: mingw-w64-ucrt-x86_64-wasmtime
-  visiblename: mingw-w64-ucrt-x86_64-wasmtime
-  version: 50.0.3
-  origversion: 50.0.3-1
-  status: outdated
+  binname: mingw-w64-clang-aarch64-wasmtime
+  visiblename: mingw-w64-clang-aarch64-wasmtime
+  version: 51.0.0
+  origversion: 51.0.0-1
+  status: newest
   summary: A fast and secure runtime for WebAssembly (mingw-w64)
   licenses:
     - spdx:Apache-2.0
@@ -306,10 +296,20 @@
   srcname: mingw-w64-wasmtime
   binname: mingw-w64-ucrt-x86_64-libwasmtime
   visiblename: mingw-w64-ucrt-x86_64-libwasmtime
-  version: 50.0.3
-  origversion: 50.0.3-1
-  status: outdated
+  version: 51.0.0
+  origversion: 51.0.0-1
+  status: newest
   summary: A fast and secure runtime for WebAssembly (mingw-w64) (C-API)
+  licenses:
+    - spdx:Apache-2.0
+- repo: msys2_ucrt64
+  srcname: mingw-w64-wasmtime
+  binname: mingw-w64-ucrt-x86_64-wasmtime
+  visiblename: mingw-w64-ucrt-x86_64-wasmtime
+  version: 51.0.0
+  origversion: 51.0.0-1
+  status: newest
+  summary: A fast and secure runtime for WebAssembly (mingw-w64)
   licenses:
     - spdx:Apache-2.0
 - repo: nix_stable_26_05
@@ -440,108 +440,22 @@
 - repo: wikidata
   srcname: Q119398768
   visiblename: Wasmtime
-  version: 50.0.3
+  version: 51.0.0
   origversion: null
-  status: outdated
+  status: newest
   summary: WebAssembly runtime
   licenses:
     - Apache License v2.0 with LLVM Exceptions
-- repo: conancenter
+- repo: nix_stable_24_05
   srcname: wasmtime
   visiblename: wasmtime
-  version: 12.0.2
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: conancenter
-  srcname: wasmtime
-  visiblename: wasmtime
-  version: 9.0.1
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: conancenter
-  srcname: wasmtime
-  visiblename: wasmtime
-  version: 20.0.1
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: conancenter
-  srcname: wasmtime
-  visiblename: wasmtime
-  version: 19.0.2
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: conancenter
-  srcname: wasmtime
-  visiblename: wasmtime
-  version: 18.0.3
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
-  srcname: rust-wasmtime
-  binnames:
-    - librust-cranelift-dev
-  visiblename: rust-wasmtime
-  version: 36.0.5
-  origversion: 36.0.5+dfsg-1
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: conancenter
-  srcname: wasmtime
-  visiblename: wasmtime
-  version: 16.0.0
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: nix_stable_25_11
-  srcname: wasmtime
-  visiblename: wasmtime
-  version: 38.0.4
+  version: 21.0.2
   origversion: null
   status: outdated
   summary: Standalone JIT-style runtime for WebAssembly, using Cranelift
   maintainers:
     - ereslibre@ereslibre.es
     - mjbauer95@gmail.com
-    - hey@winston.sh
-  licenses:
-    - Apache-2.0
-    - LLVM-exception
-  vulnerable: true
-- repo: alpine_3_24
-  subrepo: community
-  srcname: wasmtime
-  binname: libwasmtime
-  visiblename: libwasmtime
-  version: 44.0.1
-  origversion: 44.0.1-r1
-  status: outdated
-  summary: Fast and secure runtime for WebAssembly
-  maintainers:
-    - alpine@ptrcnull.me
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: alpine_3_24
-  subrepo: community
-  srcname: wasmtime
-  binname: libwasmtime-static
-  visiblename: libwasmtime-static
-  version: 44.0.1
-  origversion: 44.0.1-r1
-  status: outdated
-  summary: Fast and secure runtime for WebAssembly (static library)
-  maintainers:
-    - alpine@ptrcnull.me
   licenses:
     - Apache-2.0
   vulnerable: true
@@ -568,6 +482,34 @@
   origversion: 44.0.1-r1
   status: outdated
   summary: Fast and secure runtime for WebAssembly (development files)
+  maintainers:
+    - alpine@ptrcnull.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_24
+  subrepo: community
+  srcname: wasmtime
+  binname: libwasmtime
+  visiblename: libwasmtime
+  version: 44.0.1
+  origversion: 44.0.1-r1
+  status: outdated
+  summary: Fast and secure runtime for WebAssembly
+  maintainers:
+    - alpine@ptrcnull.me
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: alpine_3_24
+  subrepo: community
+  srcname: wasmtime
+  binname: libwasmtime-static
+  visiblename: libwasmtime-static
+  version: 44.0.1
+  origversion: 44.0.1-r1
+  status: outdated
+  summary: Fast and secure runtime for WebAssembly (static library)
   maintainers:
     - alpine@ptrcnull.me
   licenses:
@@ -645,6 +587,48 @@
 - repo: conancenter
   srcname: wasmtime
   visiblename: wasmtime
+  version: 20.0.1
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: conancenter
+  srcname: wasmtime
+  visiblename: wasmtime
+  version: 19.0.2
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: conancenter
+  srcname: wasmtime
+  visiblename: wasmtime
+  version: 18.0.3
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: conancenter
+  srcname: wasmtime
+  visiblename: wasmtime
+  version: 16.0.0
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: conancenter
+  srcname: wasmtime
+  visiblename: wasmtime
+  version: 12.0.2
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: conancenter
+  srcname: wasmtime
+  visiblename: wasmtime
+  version: 9.0.1
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: conancenter
+  srcname: wasmtime
+  visiblename: wasmtime
   version: 7.0.0
   origversion: null
   status: legacy
@@ -662,19 +646,6 @@
     - dr@jones.dk
   categories:
     - misc
-  vulnerable: true
-- repo: nix_stable_24_05
-  srcname: wasmtime
-  visiblename: wasmtime
-  version: 21.0.2
-  origversion: null
-  status: outdated
-  summary: Standalone JIT-style runtime for WebAssembly, using Cranelift
-  maintainers:
-    - ereslibre@ereslibre.es
-    - mjbauer95@gmail.com
-  licenses:
-    - Apache-2.0
   vulnerable: true
 - repo: nix_stable_24_11
   srcname: wasmtime
@@ -701,6 +672,21 @@
     - mjbauer95@gmail.com
   licenses:
     - Apache-2.0
+  vulnerable: true
+- repo: nix_stable_25_11
+  srcname: wasmtime
+  visiblename: wasmtime
+  version: 38.0.4
+  origversion: null
+  status: outdated
+  summary: Standalone JIT-style runtime for WebAssembly, using Cranelift
+  maintainers:
+    - ereslibre@ereslibre.es
+    - mjbauer95@gmail.com
+    - hey@winston.sh
+  licenses:
+    - Apache-2.0
+    - LLVM-exception
   vulnerable: true
 - repo: parrot
   subrepo: parrot-updates/main
@@ -794,6 +780,20 @@
   visiblename: rust-wasmtime
   version: 26.0.1
   origversion: 26.0.1+dfsg-3
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: rust-wasmtime
+  binnames:
+    - librust-cranelift-dev
+  visiblename: rust-wasmtime
+  version: 36.0.5
+  origversion: 36.0.5+dfsg-1
   status: outdated
   maintainers:
     - dr@jones.dk
