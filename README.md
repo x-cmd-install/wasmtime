@@ -14,25 +14,25 @@ x install wasmtime
 
 ## Code insight
 
-Total: **798,997** lines of code across **5584** files in the top 5 languages.
+Total: **799,859** lines of code across **5591** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 639,739 | 38,942 | 69,048 | 2144 |
-| WebAssembly | 124,134 | 143,112 | 11,900 | 3207 |
+| Rust | 640,229 | 39,014 | 69,086 | 2144 |
+| WebAssembly | 124,501 | 143,331 | 11,932 | 3214 |
 | Toml | 11,030 | 431 | 1,909 | 108 |
-| CppHeader | 6,057 | 2,488 | 1,697 | 64 |
-| Cpp | 5,317 | 311 | 990 | 61 |
+| CppHeader | 6,060 | 2,492 | 1,698 | 64 |
+| Cpp | 5,318 | 311 | 990 | 61 |
 
 ## OpenSSF Scorecard
 
-Overall score: **6.4 / 10**
+Overall score: **7.2 / 10**
 
 Lowest-scoring checks:
 
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Pinned-Dependencies** (3/10) — dependency not pinned by hash detected -- score normalized to 3
+- **SAST** (0/10) — SAST tool is not run on all commits -- score normalized to 0
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `dev` (2026-11-20)
-- **Last commit**: 2026-11-21
+- **Last commit**: 2026-11-24
 - **Assets in release**: 39
 
 ## Popularity
 
-- **Stars**: 18,890 · **Forks**: 1,943 · **Open issues**: 3,856 · **Contributors**: 792
+- **Stars**: 18,891 · **Forks**: 1,946 · **Open issues**: 3,862 · **Contributors**: 794
 
 ## Totals (cumulative)
 
-- **Releases**: 242 · **Merged PRs**: 10522 · **Open PRs**: 99 · **Closed issues**: 3090 · **Open issues**: 766 · **Commits**: 17812
+- **Releases**: 242 · **Merged PRs**: 10528 · **Open PRs**: 105 · **Closed issues**: 3093 · **Open issues**: 769 · **Commits**: 17818
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 14 | 275 | 30 | 62 | 42 | 203 |
-| last60d | 2026-09-24 | 28 | 662 | 48 | 155 | 60 | 578 |
-| 90d | 2026-08-25 | 32 | 806 | 50 | 194 | 69 | 718 |
-| last180d | 2026-05-27 | 55 | 1303 | 57 | 321 | 104 | 1170 |
-| 360d | 2025-11-28 | 87 | 2308 | 69 | 548 | 163 | 2129 |
-| last720d | 2024-12-03 | 99 | 4035 | 73 | 975 | 275 | 3683 |
+| 30d | 2026-10-25 | 14 | 280 | 35 | 65 | 43 | 209 |
+| last60d | 2026-09-25 | 25 | 658 | 54 | 157 | 62 | 584 |
+| 90d | 2026-08-26 | 32 | 805 | 56 | 196 | 72 | 724 |
+| last180d | 2026-05-28 | 55 | 1306 | 63 | 323 | 105 | 1176 |
+| 360d | 2025-11-29 | 87 | 2314 | 75 | 551 | 166 | 2135 |
+| last720d | 2024-12-04 | 99 | 4034 | 79 | 974 | 277 | 3682 |
 
 ## Release assets
 
@@ -111,7 +111,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **71** distros on [repology.org](https://repology.org/project/wasmtime). **13** are ✅ on the latest upstream release, **44** are ⚠️ on an older version.
+Reported by **71** distros on [repology.org](https://repology.org/project/wasmtime). **15** are ✅ on the latest upstream release, **42** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -122,7 +122,7 @@ Reported by **71** distros on [repology.org](https://repology.org/project/wasmti
 | Ubuntu 24.04 LTS | `16.0.0` | ⚠️ outdated |
 | Arch | `51.0.0` | ✅ latest |
 | Homebrew | `51.0.0` | ✅ latest |
-| Nix unstable | `50.0.1` | ⚠️ outdated |
+| Nix unstable | `51.0.0` | ✅ latest |
 | Void | `0.25.0` | ⚠️ outdated |
 | Alpine edge | `47.0.3` | ⚠️ outdated |
 
@@ -135,4 +135,4 @@ Install metadata for wasmtime lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T07:39:50Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T11:00:40Z._

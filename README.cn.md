@@ -14,25 +14,25 @@ x install wasmtime
 
 ## 代码洞察
 
-合计: **798,997** 行代码（覆盖前 5 种语言、共 **5584** 个文件）。
+合计: **799,859** 行代码（覆盖前 5 种语言、共 **5591** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Rust | 639,739 | 38,942 | 69,048 | 2144 |
-| WebAssembly | 124,134 | 143,112 | 11,900 | 3207 |
+| Rust | 640,229 | 39,014 | 69,086 | 2144 |
+| WebAssembly | 124,501 | 143,331 | 11,932 | 3214 |
 | Toml | 11,030 | 431 | 1,909 | 108 |
-| CppHeader | 6,057 | 2,488 | 1,697 | 64 |
-| Cpp | 5,317 | 311 | 990 | 61 |
+| CppHeader | 6,060 | 2,492 | 1,698 | 64 |
+| Cpp | 5,318 | 311 | 990 | 61 |
 
 ## OpenSSF Scorecard 评分
 
-总评分: **6.4 / 10**
+总评分: **7.2 / 10**
 
 评分最低的几项:
 
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Pinned-Dependencies** (3/10) — dependency not pinned by hash detected -- score normalized to 3
+- **SAST** (0/10) — SAST tool is not run on all commits -- score normalized to 0
 
 ## 源代码
 
@@ -43,27 +43,27 @@ x install wasmtime
 ## 发布
 
 - **最新版本**: `dev` (2026-11-20)
-- **最近提交**: 2026-11-21
+- **最近提交**: 2026-11-24
 - **Release 含资产**: 39 个
 
 ## 流行度
 
-- **Star**: 18,890 · **Fork**: 1,943 · **开放 issue**: 3,856 · **贡献者**: 792
+- **Star**: 18,891 · **Fork**: 1,946 · **开放 issue**: 3,862 · **贡献者**: 794
 
 ## 累计统计
 
-- **发布数**: 242 · **已合并 PR**: 10522 · **开放 PR**: 99 · **已关闭 issue**: 3090 · **开放 issue**: 766 · **提交数**: 17812
+- **发布数**: 242 · **已合并 PR**: 10528 · **开放 PR**: 105 · **已关闭 issue**: 3093 · **开放 issue**: 769 · **提交数**: 17818
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 14 | 275 | 30 | 62 | 42 | 203 |
-| last60d | 2026-09-24 | 28 | 662 | 48 | 155 | 60 | 578 |
-| 90d | 2026-08-25 | 32 | 806 | 50 | 194 | 69 | 718 |
-| last180d | 2026-05-27 | 55 | 1303 | 57 | 321 | 104 | 1170 |
-| 360d | 2025-11-28 | 87 | 2308 | 69 | 548 | 163 | 2129 |
-| last720d | 2024-12-03 | 99 | 4035 | 73 | 975 | 275 | 3683 |
+| 30d | 2026-10-25 | 14 | 280 | 35 | 65 | 43 | 209 |
+| last60d | 2026-09-25 | 25 | 658 | 54 | 157 | 62 | 584 |
+| 90d | 2026-08-26 | 32 | 805 | 56 | 196 | 72 | 724 |
+| last180d | 2026-05-28 | 55 | 1306 | 63 | 323 | 105 | 1176 |
+| 360d | 2025-11-29 | 87 | 2314 | 75 | 551 | 166 | 2135 |
+| last720d | 2024-12-04 | 99 | 4034 | 79 | 974 | 277 | 3682 |
 
 ## Release 资产
 
@@ -111,7 +111,7 @@ x install wasmtime
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/wasmtime) 上共有 **71** 个发行版报告此项目。**13** 个 ✅ 已是最新上游版本，**44** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/wasmtime) 上共有 **71** 个发行版报告此项目。**15** 个 ✅ 已是最新上游版本，**42** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -122,7 +122,7 @@ x install wasmtime
 | Ubuntu 24.04 LTS | `16.0.0` | ⚠️ outdated |
 | Arch | `51.0.0` | ✅ latest |
 | Homebrew | `51.0.0` | ✅ latest |
-| Nix unstable | `50.0.1` | ⚠️ outdated |
+| Nix unstable | `51.0.0` | ✅ latest |
 | Void | `0.25.0` | ⚠️ outdated |
 | Alpine edge | `47.0.3` | ⚠️ outdated |
 
@@ -135,4 +135,4 @@ wasmtime 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261123.yml` · 2026-11-23T07:39:51Z._
+_数据快照: `data/card/261124.yml` · 2026-11-24T11:00:41Z._
