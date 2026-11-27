@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 18,897 · **Forks**: 1,951 · **Open issues**: 3,868 · **Contributors**: 794
+- **Stars**: 18,901 · **Forks**: 1,953 · **Open issues**: 3,868 · **Contributors**: 794
 
 ## Totals (cumulative)
 
-- **Releases**: 242 · **Merged PRs**: 10543 · **Open PRs**: 99 · **Closed issues**: 3097 · **Open issues**: 771 · **Commits**: 17833
+- **Releases**: 242 · **Merged PRs**: 10543 · **Open PRs**: 101 · **Closed issues**: 3097 · **Open issues**: 771 · **Commits**: 17833
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 14 | 268 | 32 | 48 | 45 | 224 |
-| last60d | 2026-09-27 | 25 | 670 | 49 | 159 | 65 | 599 |
-| 90d | 2026-08-28 | 32 | 811 | 50 | 196 | 74 | 739 |
-| last180d | 2026-05-30 | 55 | 1316 | 57 | 323 | 107 | 1191 |
-| 360d | 2025-12-01 | 87 | 2327 | 69 | 554 | 168 | 2150 |
-| last720d | 2024-12-06 | 99 | 4027 | 73 | 976 | 279 | 3671 |
+| 30d | 2026-10-28 | 14 | 259 | 32 | 47 | 45 | 224 |
+| last60d | 2026-09-28 | 25 | 661 | 51 | 158 | 64 | 599 |
+| 90d | 2026-08-29 | 32 | 809 | 52 | 196 | 74 | 739 |
+| last180d | 2026-05-31 | 55 | 1314 | 59 | 322 | 107 | 1191 |
+| 360d | 2025-12-02 | 87 | 2327 | 71 | 550 | 166 | 2150 |
+| last720d | 2024-12-07 | 99 | 4024 | 75 | 976 | 279 | 3657 |
 
 ## Release assets
 
@@ -109,23 +109,6 @@ Lowest-scoring checks:
 | [wasmtime-v51.0.0-x86_64-windows.msi](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-x86_64-windows.msi) | 12.5 MiB | `native/win/x64` |
 | [wasmtime-v51.0.0-x86_64-windows.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-x86_64-windows.zip) | 12.0 MiB | `native/win/x64` |
 
-## Distribution status
-
-Reported by **71** distros on [repology.org](https://repology.org/project/wasmtime). **15** are ✅ on the latest upstream release, **42** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `36.0.20` | ⚠️ outdated |
-| Debian 14 | `36.0.20` | ⚠️ outdated |
-| Debian 13 | `26.0.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `36.0.5` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `16.0.0` | ⚠️ outdated |
-| Arch | `51.0.0` | ✅ latest |
-| Homebrew | `51.0.0` | ✅ latest |
-| Nix unstable | `51.0.0` | ✅ latest |
-| Void | `0.25.0` | ⚠️ outdated |
-| Alpine edge | `47.0.3` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for wasmtime lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `wasmtime` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -135,4 +118,4 @@ Install metadata for wasmtime lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T08:29:55Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T08:32:42Z._

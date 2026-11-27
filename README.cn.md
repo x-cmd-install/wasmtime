@@ -48,22 +48,22 @@ x install wasmtime
 
 ## 流行度
 
-- **Star**: 18,897 · **Fork**: 1,951 · **开放 issue**: 3,868 · **贡献者**: 794
+- **Star**: 18,901 · **Fork**: 1,953 · **开放 issue**: 3,868 · **贡献者**: 794
 
 ## 累计统计
 
-- **发布数**: 242 · **已合并 PR**: 10543 · **开放 PR**: 99 · **已关闭 issue**: 3097 · **开放 issue**: 771 · **提交数**: 17833
+- **发布数**: 242 · **已合并 PR**: 10543 · **开放 PR**: 101 · **已关闭 issue**: 3097 · **开放 issue**: 771 · **提交数**: 17833
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 14 | 268 | 32 | 48 | 45 | 224 |
-| last60d | 2026-09-27 | 25 | 670 | 49 | 159 | 65 | 599 |
-| 90d | 2026-08-28 | 32 | 811 | 50 | 196 | 74 | 739 |
-| last180d | 2026-05-30 | 55 | 1316 | 57 | 323 | 107 | 1191 |
-| 360d | 2025-12-01 | 87 | 2327 | 69 | 554 | 168 | 2150 |
-| last720d | 2024-12-06 | 99 | 4027 | 73 | 976 | 279 | 3671 |
+| 30d | 2026-10-28 | 14 | 259 | 32 | 47 | 45 | 224 |
+| last60d | 2026-09-28 | 25 | 661 | 51 | 158 | 64 | 599 |
+| 90d | 2026-08-29 | 32 | 809 | 52 | 196 | 74 | 739 |
+| last180d | 2026-05-31 | 55 | 1314 | 59 | 322 | 107 | 1191 |
+| 360d | 2025-12-02 | 87 | 2327 | 71 | 550 | 166 | 2150 |
+| last720d | 2024-12-07 | 99 | 4024 | 75 | 976 | 279 | 3657 |
 
 ## Release 资产
 
@@ -109,23 +109,6 @@ x install wasmtime
 | [wasmtime-v51.0.0-x86_64-windows.msi](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-x86_64-windows.msi) | 12.5 MiB | `native/win/x64` |
 | [wasmtime-v51.0.0-x86_64-windows.zip](https://github.com/bytecodealliance/wasmtime/releases/download/v51.0.0/wasmtime-v51.0.0-x86_64-windows.zip) | 12.0 MiB | `native/win/x64` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/wasmtime) 上共有 **71** 个发行版报告此项目。**15** 个 ✅ 已是最新上游版本，**42** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `36.0.20` | ⚠️ outdated |
-| Debian 14 | `36.0.20` | ⚠️ outdated |
-| Debian 13 | `26.0.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `36.0.5` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `16.0.0` | ⚠️ outdated |
-| Arch | `51.0.0` | ✅ latest |
-| Homebrew | `51.0.0` | ✅ latest |
-| Nix unstable | `51.0.0` | ✅ latest |
-| Void | `0.25.0` | ⚠️ outdated |
-| Alpine edge | `47.0.3` | ⚠️ outdated |
-
 ## 改进这些数据
 
 wasmtime 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `wasmtime` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -135,4 +118,4 @@ wasmtime 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261126.yml` · 2026-11-26T08:29:56Z._
+_数据快照: `data/card/261127.yml` · 2026-11-27T08:32:44Z._
