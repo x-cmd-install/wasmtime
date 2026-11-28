@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 18,901 · **Forks**: 1,953 · **Open issues**: 3,868 · **Contributors**: 794
+- **Stars**: 18,906 · **Forks**: 1,953 · **Open issues**: 3,868 · **Contributors**: 794
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 14 | 259 | 32 | 47 | 45 | 224 |
-| last60d | 2026-09-28 | 25 | 661 | 51 | 158 | 64 | 599 |
-| 90d | 2026-08-29 | 32 | 809 | 52 | 196 | 74 | 739 |
-| last180d | 2026-05-31 | 55 | 1314 | 59 | 322 | 107 | 1191 |
-| 360d | 2025-12-02 | 87 | 2327 | 71 | 550 | 166 | 2150 |
-| last720d | 2024-12-07 | 99 | 4024 | 75 | 976 | 279 | 3657 |
+| 30d | 2026-10-29 | 14 | 237 | 31 | 47 | 42 | 224 |
+| last60d | 2026-09-29 | 25 | 657 | 51 | 158 | 64 | 599 |
+| 90d | 2026-08-30 | 32 | 805 | 52 | 196 | 73 | 739 |
+| last180d | 2026-06-01 | 55 | 1309 | 59 | 318 | 106 | 1191 |
+| 360d | 2025-12-03 | 87 | 2320 | 71 | 547 | 165 | 2150 |
+| last720d | 2024-12-08 | 99 | 4023 | 75 | 976 | 279 | 3657 |
 
 ## Release assets
 
@@ -118,4 +118,4 @@ Install metadata for wasmtime lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T08:32:42Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T08:03:19Z._
